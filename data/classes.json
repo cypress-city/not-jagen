@@ -2,6 +2,7 @@
   "Noble": {
     "name": "Noble",
     "tier": 0,
+    "requirements": {},
     "growths": {
       "HP": 0,
       "Str": 0,
@@ -54,6 +55,7 @@
   "Commoner": {
     "name": "Commoner",
     "tier": 0,
+    "requirements": {},
     "growths": {
       "HP": 0,
       "Str": 0,
@@ -106,6 +108,13 @@
   "Gladiator": {
     "name": "Gladiator",
     "tier": 1,
+    "requirements": {
+      "secondary": {
+        "Sword": "D",
+        "Axe": "D",
+        "Brawling": "D"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": 10,
@@ -154,6 +163,12 @@
   "Hunter": {
     "name": "Hunter",
     "tier": 1,
+    "requirements": {
+      "secondary": {
+        "Bow": "D",
+        "Sword": "D"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": 0,
@@ -201,6 +216,12 @@
   "Soldier": {
     "name": "Soldier",
     "tier": 1,
+    "requirements": {
+      "secondary": {
+        "Spear": "D",
+        "Axe": "D"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": 5,
@@ -250,6 +271,15 @@
   "Ornius Rider": {
     "name": "Ornius Rider",
     "tier": 1,
+    "requirements": {
+      "primary": {
+        "Riding": "E+"
+      },
+      "secondary": {
+        "Spear": "D",
+        "Axe": "D"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": 0,
@@ -299,6 +329,12 @@
   "Diviner": {
     "name": "Diviner",
     "tier": 1,
+    "requirements": {
+      "secondary": {
+        "Reason": "D",
+        "Faith": "D"
+      }
+    },
     "growths": {
       "HP": 5,
       "Str": -5,
@@ -349,6 +385,11 @@
   "Myrmidon": {
     "name": "Myrmidon",
     "tier": 2,
+    "requirements": {
+      "primary": {
+        "Sword": "C"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": 0,
@@ -396,6 +437,12 @@
   "Brigand": {
     "name": "Brigand",
     "tier": 2,
+    "requirements": {
+      "secondary": {
+        "Sword": "C",
+        "Axe": "C"
+      }
+    },
     "growths": {
       "HP": 15,
       "Str": 15,
@@ -444,6 +491,11 @@
   "Pugilist": {
     "name": "Pugilist",
     "tier": 2,
+    "requirements": {
+      "primary": {
+        "Brawling": "C"
+      }
+    },
     "growths": {
       "HP": 15,
       "Str": 10,
@@ -490,6 +542,11 @@
   "Archer": {
     "name": "Archer",
     "tier": 2,
+    "requirements": {
+      "primary": {
+        "Bow": "C"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": 0,
@@ -536,6 +593,12 @@
   "Rogue": {
     "name": "Rogue",
     "tier": 2,
+    "requirements": {
+      "secondary": {
+        "Sword": "C",
+        "Bow": "C"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": 0,
@@ -583,6 +646,15 @@
   "Armored Knight": {
     "name": "Armored Knight",
     "tier": 2,
+    "requirements": {
+      "primary": {
+        "Armor": "E+"
+      },
+      "secondary": {
+        "Spear": "C",
+        "Axe": "C"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": 10,
@@ -632,6 +704,15 @@
   "Light Cavalry": {
     "name": "Light Cavalry",
     "tier": 2,
+    "requirements": {
+      "primary": {
+        "Riding": "D"
+      },
+      "secondary": {
+        "Spear": "C",
+        "Sword": "C"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": 5,
@@ -680,6 +761,12 @@
   "Charioteer": {
     "name": "Charioteer",
     "tier": 2,
+    "requirements": {
+      "primary": {
+        "Bow": "C",
+        "Riding": "D"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": 5,
@@ -726,6 +813,15 @@
   "Armored Ornius Rider": {
     "name": "Armored Ornius Rider",
     "tier": 2,
+    "requirements": {
+      "primary": {
+        "Riding": "D"
+      },
+      "secondary": {
+        "Spear": "C",
+        "Axe": "C"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": 0,
@@ -775,6 +871,15 @@
   "Wing Soldier": {
     "name": "Wing Soldier",
     "tier": 2,
+    "requirements": {
+      "primary": {
+        "Flying": "D"
+      },
+      "secondary": {
+        "Sword": "C",
+        "Spear": "C"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": 0,
@@ -822,6 +927,11 @@
   "Shaman": {
     "name": "Shaman",
     "tier": 2,
+    "requirements": {
+      "primary": {
+        "Reason": "C"
+      }
+    },
     "growths": {
       "HP": 5,
       "Str": -5,
@@ -871,6 +981,11 @@
   "Priest": {
     "name": "Priest",
     "tier": 2,
+    "requirements": {
+      "primary": {
+        "Faith": "C"
+      }
+    },
     "growths": {
       "HP": 5,
       "Str": -5,
@@ -920,6 +1035,11 @@
   "Shido": {
     "name": "Shido",
     "tier": 3,
+    "requirements": {
+      "primary": {
+        "Sword": "B"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": 5,
@@ -967,6 +1087,12 @@
   "Dancer": {
     "name": "Dancer",
     "tier": 3,
+    "requirements": {
+      "secondary": {
+        "Sword": "B",
+        "Bow": "B"
+      }
+    },
     "growths": {
       "HP": 15,
       "Str": 5,
@@ -1014,6 +1140,13 @@
   "Warrior": {
     "name": "Warrior",
     "tier": 3,
+    "requirements": {
+      "secondary": {
+        "Sword": "B",
+        "Axe": "B",
+        "Brawling": "B"
+      }
+    },
     "growths": {
       "HP": 20,
       "Str": 20,
@@ -1062,6 +1195,12 @@
   "Blacksmith": {
     "name": "Blacksmith",
     "tier": 3,
+    "requirements": {
+      "primary": {
+        "Axe": "C",
+        "Reason": "D"
+      }
+    },
     "growths": {
       "HP": 15,
       "Str": 10,
@@ -1109,6 +1248,11 @@
   "Sniper": {
     "name": "Sniper",
     "tier": 3,
+    "requirements": {
+      "primary": {
+        "Bow": "B"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": 5,
@@ -1155,6 +1299,12 @@
   "Forest Knight": {
     "name": "Forest Knight",
     "tier": 3,
+    "requirements": {
+      "primary": {
+        "Bow": "B",
+        "Riding": "D"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": 5,
@@ -1202,6 +1352,12 @@
   "Ranger": {
     "name": "Ranger",
     "tier": 3,
+    "requirements": {
+      "secondary": {
+        "Bow": "B",
+        "Sword": "B"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": 5,
@@ -1249,6 +1405,11 @@
   "Guardian": {
     "name": "Guardian",
     "tier": 3,
+    "requirements": {
+      "primary": {
+        "Spear": "B"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": 10,
@@ -1296,6 +1457,15 @@
   "Dreadnought": {
     "name": "Dreadnought",
     "tier": 3,
+    "requirements": {
+      "primary": {
+        "Armor": "D"
+      },
+      "secondary": {
+        "Spear": "B",
+        "Axe": "B"
+      }
+    },
     "growths": {
       "HP": 15,
       "Str": 15,
@@ -1344,6 +1514,15 @@
   "Bardinger": {
     "name": "Bardinger",
     "tier": 3,
+    "requirements": {
+      "primary": {
+        "Riding": "C"
+      },
+      "secondary": {
+        "Sword": "B",
+        "Spear": "C"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": 10,
@@ -1392,6 +1571,16 @@
   "Cataphract": {
     "name": "Cataphract",
     "tier": 3,
+    "requirements": {
+      "primary": {
+        "Armor": "E+",
+        "Riding": "D"
+      },
+      "secondary": {
+        "Axe": "B",
+        "Spear": "B"
+      }
+    },
     "growths": {
       "HP": 15,
       "Str": 15,
@@ -1441,6 +1630,12 @@
   "Caladrius": {
     "name": "Caladrius",
     "tier": 3,
+    "requirements": {
+      "primary": {
+        "Reason": "B",
+        "Riding": "D"
+      }
+    },
     "growths": {
       "HP": 15,
       "Str": 0,
@@ -1491,6 +1686,15 @@
   "Dragoon": {
     "name": "Dragoon",
     "tier": 3,
+    "requirements": {
+      "primary": {
+        "Flying": "C"
+      },
+      "secondary": {
+        "Spear": "B",
+        "Axe": "B"
+      }
+    },
     "growths": {
       "HP": 15,
       "Str": 5,
@@ -1539,6 +1743,11 @@
   "Ovate": {
     "name": "Ovate",
     "tier": 3,
+    "requirements": {
+      "primary": {
+        "Reason": "B"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": -5,
@@ -1588,6 +1797,11 @@
   "Bishop": {
     "name": "Bishop",
     "tier": 3,
+    "requirements": {
+      "primary": {
+        "Faith": "B"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": -5,
@@ -1637,6 +1851,15 @@
   "Troubadour": {
     "name": "Troubadour",
     "tier": 3,
+    "requirements": {
+      "primary": {
+        "Riding": "D"
+      },
+      "secondary": {
+        "Reason": "B",
+        "Faith": "B"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": 0,
@@ -1684,6 +1907,11 @@
   "Elephant Rider": {
     "name": "Elephant Rider",
     "tier": 3,
+    "requirements": {
+      "primary": {
+        "Riding": "C"
+      }
+    },
     "growths": {
       "HP": 20,
       "Str": 10,
@@ -1729,6 +1957,11 @@
   "Swordmaster": {
     "name": "Swordmaster",
     "tier": 4,
+    "requirements": {
+      "primary": {
+        "Sword": "A"
+      }
+    },
     "growths": {
       "HP": 15,
       "Str": 10,
@@ -1776,6 +2009,13 @@
   "High Savant": {
     "name": "High Savant",
     "tier": 4,
+    "requirements": {
+      "primary": {
+        "Sword": "B",
+        "Riding": "D",
+        "Reason": "D"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": 15,
@@ -1823,6 +2063,13 @@
   "Battlemaster": {
     "name": "Battlemaster",
     "tier": 4,
+    "requirements": {
+      "secondary": {
+        "Sword": "A",
+        "Axe": "A",
+        "Brawling": "A"
+      }
+    },
     "growths": {
       "HP": 25,
       "Str": 25,
@@ -1871,6 +2118,12 @@
   "War Monk": {
     "name": "War Monk",
     "tier": 4,
+    "requirements": {
+      "primary": {
+        "Brawling": "B",
+        "Faith": "D"
+      }
+    },
     "growths": {
       "HP": 15,
       "Str": 10,
@@ -1918,6 +2171,11 @@
   "Bow Adept": {
     "name": "Bow Adept",
     "tier": 4,
+    "requirements": {
+      "primary": {
+        "Bow": "A"
+      }
+    },
     "growths": {
       "HP": 15,
       "Str": 5,
@@ -1964,6 +2222,12 @@
   "Bow Knight": {
     "name": "Bow Knight",
     "tier": 4,
+    "requirements": {
+      "primary": {
+        "Bow": "A",
+        "Riding": "D"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": 10,
@@ -2011,6 +2275,12 @@
   "Shadow Seeker": {
     "name": "Shadow Seeker",
     "tier": 4,
+    "requirements": {
+      "secondary": {
+        "Bow": "A",
+        "Sword": "A"
+      }
+    },
     "growths": {
       "HP": 15,
       "Str": 5,
@@ -2058,6 +2328,11 @@
   "Sentinel": {
     "name": "Sentinel",
     "tier": 4,
+    "requirements": {
+      "primary": {
+        "Spear": "A"
+      }
+    },
     "growths": {
       "HP": 15,
       "Str": 15,
@@ -2105,6 +2380,15 @@
   "Castle Knight": {
     "name": "Castle Knight",
     "tier": 4,
+    "requirements": {
+      "primary": {
+        "Armor": "C"
+      },
+      "secondary": {
+        "Spear": "A",
+        "Axe": "A"
+      }
+    },
     "growths": {
       "HP": 25,
       "Str": 20,
@@ -2153,6 +2437,15 @@
   "Orichaldia": {
     "name": "Orichaldia",
     "tier": 4,
+    "requirements": {
+      "primary": {
+        "Riding": "B"
+      },
+      "secondary": {
+        "Sword": "A",
+        "Spear": "A"
+      }
+    },
     "growths": {
       "HP": 15,
       "Str": 15,
@@ -2201,6 +2494,16 @@
   "Great Knight": {
     "name": "Great Knight",
     "tier": 4,
+    "requirements": {
+      "primary": {
+        "Armor": "D",
+        "Riding": "D"
+      },
+      "secondary": {
+        "Spear": "A",
+        "Axe": "A"
+      }
+    },
     "growths": {
       "HP": 20,
       "Str": 20,
@@ -2250,6 +2553,15 @@
   "Celestial Trooper": {
     "name": "Celestial Trooper",
     "tier": 4,
+    "requirements": {
+      "primary": {
+        "Flying": "C"
+      },
+      "secondary": {
+        "Sword": "A",
+        "Spear": "A"
+      }
+    },
     "growths": {
       "HP": 15,
       "Str": 5,
@@ -2297,6 +2609,15 @@
   "Bau Lord": {
     "name": "Bau Lord",
     "tier": 4,
+    "requirements": {
+      "primary": {
+        "Flying": "C"
+      },
+      "secondary": {
+        "Spear": "A",
+        "Axe": "A"
+      }
+    },
     "growths": {
       "HP": 15,
       "Str": 5,
@@ -2345,6 +2666,11 @@
   "Druid": {
     "name": "Druid",
     "tier": 4,
+    "requirements": {
+      "primary": {
+        "Reason": "A"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": -5,
@@ -2393,6 +2719,11 @@
   "Wiseman": {
     "name": "Wiseman",
     "tier": 4,
+    "requirements": {
+      "primary": {
+        "Faith": "A"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": -5,
@@ -2441,6 +2772,15 @@
   "Valkyrium": {
     "name": "Valkyrium",
     "tier": 4,
+    "requirements": {
+      "primary": {
+        "Riding": "D"
+      },
+      "secondary": {
+        "Reason": "A",
+        "Faith": "A"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": 0,
@@ -2488,6 +2828,11 @@
   "The Blade": {
     "name": "The Blade",
     "tier": 5,
+    "requirements": {
+      "primary": {
+        "Sword": "S"
+      }
+    },
     "growths": {
       "HP": 15,
       "Str": 10,
@@ -2535,6 +2880,12 @@
   "The Apsara": {
     "name": "The Apsara",
     "tier": 5,
+    "requirements": {
+      "primary": {
+        "Sword": "A",
+        "Bow": "C"
+      }
+    },
     "growths": {
       "HP": 15,
       "Str": 5,
@@ -2582,6 +2933,13 @@
   "The Eternal": {
     "name": "The Eternal",
     "tier": 5,
+    "requirements": {
+      "secondary": {
+        "Sword": "S",
+        "Axe": "S",
+        "Brawling": "S"
+      }
+    },
     "growths": {
       "HP": 30,
       "Str": 30,
@@ -2630,6 +2988,12 @@
   "The Godhand": {
     "name": "The Godhand",
     "tier": 5,
+    "requirements": {
+      "primary": {
+        "Brawling": "S",
+        "Faith": "C"
+      }
+    },
     "growths": {
       "HP": 15,
       "Str": 10,
@@ -2677,6 +3041,12 @@
   "The Calamity": {
     "name": "The Calamity",
     "tier": 5,
+    "requirements": {
+      "secondary": {
+        "Sword": "S",
+        "Bow": "S"
+      }
+    },
     "growths": {
       "HP": 15,
       "Str": 5,
@@ -2724,6 +3094,11 @@
   "The Trident": {
     "name": "The Trident",
     "tier": 5,
+    "requirements": {
+      "primary": {
+        "Spear": "S"
+      }
+    },
     "growths": {
       "HP": 15,
       "Str": 15,
@@ -2771,6 +3146,16 @@
   "The Cavalier": {
     "name": "The Cavalier",
     "tier": 5,
+    "requirements": {
+      "primary": {
+        "Riding": "A"
+      },
+      "secondary": {
+        "Sword": "S",
+        "Spear": "S",
+        "Axe": "S"
+      }
+    },
     "growths": {
       "HP": 20,
       "Str": 15,
@@ -2819,6 +3204,12 @@
   "The Avatar": {
     "name": "The Avatar",
     "tier": 5,
+    "requirements": {
+      "secondary": {
+        "Reason": "S",
+        "Faith": "S"
+      }
+    },
     "growths": {
       "HP": 10,
       "Str": -5,

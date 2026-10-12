@@ -26,10 +26,11 @@ class Stats:
 
 
 class Class:
-    def __init__(self, name: str, tier: int, growths: Stats, stat_bonuses: Stats, skills: list[str],
+    def __init__(self, name: str, tier: int, reqs: dict, growths: Stats, stat_bonuses: Stats, skills: list[str],
                  skill_growths: dict[str, int], mount: str | None):
         self.name = name
         self.tier = tier
+        self.requirements = reqs
         self.growths = growths
         self.stat_bonuses = stat_bonuses
         self.skills = skills
@@ -41,6 +42,7 @@ class Class:
         return Class(
             name=js["name"],
             tier=js["tier"],
+            reqs=js["requirements"],
             growths=Stats(js["growths"]),
             stat_bonuses=Stats(js["stat_bonuses"]),
             skills=js["skills"],
@@ -49,7 +51,16 @@ class Class:
         )
 
     def embed(self, bot: Bot):
+        reqs = ""
+        if self.requirements.get("primary"):
+            reqs += f"Primary: **{'\u2002'.join((str(bot.app_emojis[k.lower() + '_neutral']) + ' ' + v)
+                                                for k, v in self.requirements['primary'].items())}**"
+        if self.requirements.get("secondary"):
+            reqs += f"\nSecondary: **{'\u2002'.join((str(bot.app_emojis[k.lower() + '_neutral']) + ' ' + v)
+                                                    for k, v in self.requirements['secondary'].items())}**"
         fields = {
+            "Tier": f"{TIER_NAMES[self.tier]} (Lv {TIER_LEVELS[self.tier]})",
+            "Requirements": reqs.strip("\n"),
             "Growths": self.growths.display(include_percent=True),
             "Bonuses": self.stat_bonuses.display(),
             "Weapons": " ".join(str(bot.app_emojis[f"{g.lower()}_neutral"]) for g in self.skills),
@@ -60,10 +71,9 @@ class Class:
             fields["Mount"] = self.mount
         return red_embed(
             title=self.name,
-            desc=f"Tier: {TIER_NAMES[self.tier]} (Lv {TIER_LEVELS[self.tier]})",
             fields=fields,
-            field_same_lines={"Weapons": True, "Skill Growths": True, "Mount": True},
-            same_line=False
+            field_same_lines={"Growths": False, "Bonuses": False},
+            same_line=True
         )
 
 
