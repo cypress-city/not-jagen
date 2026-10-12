@@ -52,12 +52,14 @@ class Class:
 
     def embed(self, bot: Bot):
         reqs = ""
+
+        def format_reqs(r):
+            return "\u2002".join(f"{bot.app_emojis[k.lower() + '_neutral']} {v}" for k, v in r.items())
+
         if self.requirements.get("primary"):
-            reqs += f"Primary: **{'\u2002'.join((str(bot.app_emojis[k.lower() + '_neutral']) + ' ' + v)
-                                                for k, v in self.requirements['primary'].items())}**"
+            reqs += f"Primary: **{format_reqs(self.requirements['primary'])}**"
         if self.requirements.get("secondary"):
-            reqs += f"\nSecondary: **{'\u2002'.join((str(bot.app_emojis[k.lower() + '_neutral']) + ' ' + v)
-                                                    for k, v in self.requirements['secondary'].items())}**"
+            reqs += f"Secondary: **{format_reqs(self.requirements['secondary'])}**"
         fields = {
             "Tier": f"{TIER_NAMES[self.tier]} (Lv {TIER_LEVELS[self.tier]})",
             "Requirements": reqs.strip("\n"),
