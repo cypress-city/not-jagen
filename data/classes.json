@@ -1,0 +1,2869 @@
+{
+  "Noble": {
+    "name": "Noble",
+    "tier": 0,
+    "growths": {
+      "HP": 0,
+      "Str": 0,
+      "Mag": 0,
+      "Spd": 0,
+      "Dex": 0,
+      "Def": 0,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0
+    },
+    "stat_bonuses": {
+      "HP": 0,
+      "Str": 0,
+      "Mag": 0,
+      "Spd": 0,
+      "Dex": 0,
+      "Def": 0,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 4
+    },
+    "skills": [
+      "Sword",
+      "Spear",
+      "Axe",
+      "Bow",
+      "Brawling",
+      "Reason",
+      "Faith",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Commoner": {
+    "name": "Commoner",
+    "tier": 0,
+    "growths": {
+      "HP": 0,
+      "Str": 0,
+      "Mag": 0,
+      "Spd": 0,
+      "Dex": 0,
+      "Def": 0,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0
+    },
+    "stat_bonuses": {
+      "HP": 0,
+      "Str": 0,
+      "Mag": 0,
+      "Spd": 0,
+      "Dex": 0,
+      "Def": 0,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 4
+    },
+    "skills": [
+      "Sword",
+      "Spear",
+      "Axe",
+      "Bow",
+      "Brawling",
+      "Reason",
+      "Faith",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Gladiator": {
+    "name": "Gladiator",
+    "tier": 1,
+    "growths": {
+      "HP": 10,
+      "Str": 10,
+      "Mag": 0,
+      "Spd": 0,
+      "Dex": 0,
+      "Def": 0,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0
+    },
+    "stat_bonuses": {
+      "HP": 1,
+      "Str": 1,
+      "Mag": 0,
+      "Spd": 0,
+      "Dex": 0,
+      "Def": 0,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 4
+    },
+    "skills": [
+      "Sword",
+      "Axe",
+      "Brawling",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 1,
+      "Spear": 0,
+      "Axe": 1,
+      "Bow": 0,
+      "Brawling": 1,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Hunter": {
+    "name": "Hunter",
+    "tier": 1,
+    "growths": {
+      "HP": 10,
+      "Str": 0,
+      "Mag": 0,
+      "Spd": 10,
+      "Dex": 10,
+      "Def": 0,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0
+    },
+    "stat_bonuses": {
+      "HP": 0,
+      "Str": 0,
+      "Mag": 0,
+      "Spd": 1,
+      "Dex": 1,
+      "Def": 0,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 4
+    },
+    "skills": [
+      "Sword",
+      "Bow",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 1,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 1,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 1,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Soldier": {
+    "name": "Soldier",
+    "tier": 1,
+    "growths": {
+      "HP": 10,
+      "Str": 5,
+      "Mag": 0,
+      "Spd": -5,
+      "Dex": 5,
+      "Def": 10,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0
+    },
+    "stat_bonuses": {
+      "HP": 0,
+      "Str": 1,
+      "Mag": 0,
+      "Spd": 0,
+      "Dex": 0,
+      "Def": 1,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 4
+    },
+    "skills": [
+      "Sword",
+      "Spear",
+      "Axe",
+      "Infantry",
+      "Armor"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 1,
+      "Axe": 1,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 0,
+      "Armor": 1,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Ornius Rider": {
+    "name": "Ornius Rider",
+    "tier": 1,
+    "growths": {
+      "HP": 10,
+      "Str": 0,
+      "Mag": 0,
+      "Spd": 10,
+      "Dex": 0,
+      "Def": 0,
+      "Res": 5,
+      "Lck": 5,
+      "Cha": 0
+    },
+    "stat_bonuses": {
+      "HP": 0,
+      "Str": 0,
+      "Mag": 0,
+      "Spd": 3,
+      "Dex": 1,
+      "Def": 0,
+      "Res": 0,
+      "Lck": 1,
+      "Cha": 0,
+      "Mov": 5
+    },
+    "skills": [
+      "Sword",
+      "Spear",
+      "Axe",
+      "Riding",
+      "Flying"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 1,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 1,
+      "Armor": 0,
+      "Flying": 1
+    },
+    "mount": "Ornius"
+  },
+  "Diviner": {
+    "name": "Diviner",
+    "tier": 1,
+    "growths": {
+      "HP": 5,
+      "Str": -5,
+      "Mag": 15,
+      "Spd": 0,
+      "Dex": 5,
+      "Def": -5,
+      "Res": 10,
+      "Lck": 0,
+      "Cha": 0
+    },
+    "stat_bonuses": {
+      "HP": 0,
+      "Str": 0,
+      "Mag": 1,
+      "Spd": 0,
+      "Dex": 0,
+      "Def": 0,
+      "Res": 1,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 4
+    },
+    "skills": [
+      "Sword",
+      "Axe",
+      "Brawling",
+      "Reason",
+      "Faith",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 1,
+      "Faith": 1,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Myrmidon": {
+    "name": "Myrmidon",
+    "tier": 2,
+    "growths": {
+      "HP": 10,
+      "Str": 0,
+      "Mag": 0,
+      "Spd": 15,
+      "Dex": 10,
+      "Def": 0,
+      "Res": 0,
+      "Lck": 5,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 1,
+      "Str": 0,
+      "Mag": 0,
+      "Spd": 2,
+      "Dex": 0,
+      "Def": 0,
+      "Res": -1,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 5
+    },
+    "skills": [
+      "Sword",
+      "Spear",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 2,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 1,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Brigand": {
+    "name": "Brigand",
+    "tier": 2,
+    "growths": {
+      "HP": 15,
+      "Str": 15,
+      "Mag": -5,
+      "Spd": 5,
+      "Dex": 0,
+      "Def": 5,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 3,
+      "Str": 2,
+      "Mag": 0,
+      "Spd": 0,
+      "Dex": 0,
+      "Def": 1,
+      "Res": -1,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 5
+    },
+    "skills": [
+      "Sword",
+      "Axe",
+      "Brawling",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 0,
+      "Axe": 2,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Pugilist": {
+    "name": "Pugilist",
+    "tier": 2,
+    "growths": {
+      "HP": 15,
+      "Str": 10,
+      "Mag": -5,
+      "Spd": 10,
+      "Dex": 5,
+      "Def": 10,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 2,
+      "Str": 1,
+      "Mag": 0,
+      "Spd": 1,
+      "Dex": 0,
+      "Def": 2,
+      "Res": -1,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 5
+    },
+    "skills": [
+      "Brawling",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 2,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 2,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Archer": {
+    "name": "Archer",
+    "tier": 2,
+    "growths": {
+      "HP": 10,
+      "Str": 0,
+      "Mag": 0,
+      "Spd": 10,
+      "Dex": 15,
+      "Def": 5,
+      "Res": 0,
+      "Lck": 5,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 0,
+      "Str": 0,
+      "Mag": 0,
+      "Spd": 2,
+      "Dex": 2,
+      "Def": 1,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 5
+    },
+    "skills": [
+      "Bow",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 2,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 1,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Rogue": {
+    "name": "Rogue",
+    "tier": 2,
+    "growths": {
+      "HP": 10,
+      "Str": 0,
+      "Mag": 0,
+      "Spd": 15,
+      "Dex": 10,
+      "Def": 0,
+      "Res": 5,
+      "Lck": 5,
+      "Cha": 0
+    },
+    "stat_bonuses": {
+      "HP": 0,
+      "Str": 0,
+      "Mag": 0,
+      "Spd": 3,
+      "Dex": 1,
+      "Def": 0,
+      "Res": 1,
+      "Lck": 1,
+      "Cha": -1,
+      "Mov": 6
+    },
+    "skills": [
+      "Sword",
+      "Bow",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 1,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 1,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 2,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Armored Knight": {
+    "name": "Armored Knight",
+    "tier": 2,
+    "growths": {
+      "HP": 10,
+      "Str": 10,
+      "Mag": -5,
+      "Spd": -5,
+      "Dex": 5,
+      "Def": 25,
+      "Res": -5,
+      "Lck": 0,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 2,
+      "Str": 1,
+      "Mag": 0,
+      "Spd": -2,
+      "Dex": 0,
+      "Def": 4,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 4
+    },
+    "skills": [
+      "Sword",
+      "Spear",
+      "Axe",
+      "Infantry",
+      "Armor"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 1,
+      "Axe": 1,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 0,
+      "Armor": 2,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Light Cavalry": {
+    "name": "Light Cavalry",
+    "tier": 2,
+    "growths": {
+      "HP": 10,
+      "Str": 5,
+      "Mag": -5,
+      "Spd": 5,
+      "Dex": 0,
+      "Def": 5,
+      "Res": 0,
+      "Lck": 5,
+      "Cha": 10
+    },
+    "stat_bonuses": {
+      "HP": 1,
+      "Str": 1,
+      "Mag": 0,
+      "Spd": 1,
+      "Dex": 0,
+      "Def": 2,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 1,
+      "Mov": 6
+    },
+    "skills": [
+      "Sword",
+      "Spear",
+      "Axe",
+      "Riding"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 1,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 2,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": "Horse"
+  },
+  "Charioteer": {
+    "name": "Charioteer",
+    "tier": 2,
+    "growths": {
+      "HP": 10,
+      "Str": 5,
+      "Mag": -5,
+      "Spd": -5,
+      "Dex": 15,
+      "Def": 10,
+      "Res": 0,
+      "Lck": 5,
+      "Cha": 10
+    },
+    "stat_bonuses": {
+      "HP": 3,
+      "Str": 1,
+      "Mag": 0,
+      "Spd": -2,
+      "Dex": 3,
+      "Def": 3,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 1,
+      "Mov": 6
+    },
+    "skills": [
+      "Bow",
+      "Riding (Infantry when dismounted)"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 2,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 1,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": "Horse"
+  },
+  "Armored Ornius Rider": {
+    "name": "Armored Ornius Rider",
+    "tier": 2,
+    "growths": {
+      "HP": 10,
+      "Str": 0,
+      "Mag": -5,
+      "Spd": 10,
+      "Dex": 5,
+      "Def": 10,
+      "Res": 0,
+      "Lck": 5,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 1,
+      "Str": 0,
+      "Mag": 0,
+      "Spd": 2,
+      "Dex": 0,
+      "Def": 2,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 7
+    },
+    "skills": [
+      "Sword",
+      "Spear",
+      "Axe",
+      "Riding",
+      "Flying"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 1,
+      "Axe": 1,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 1,
+      "Armor": 0,
+      "Flying": 1
+    },
+    "mount": "Ornius"
+  },
+  "Wing Soldier": {
+    "name": "Wing Soldier",
+    "tier": 2,
+    "growths": {
+      "HP": 10,
+      "Str": 0,
+      "Mag": 5,
+      "Spd": 0,
+      "Dex": 5,
+      "Def": 5,
+      "Res": 5,
+      "Lck": 5,
+      "Cha": 10
+    },
+    "stat_bonuses": {
+      "HP": 0,
+      "Str": 0,
+      "Mag": 0,
+      "Spd": 4,
+      "Dex": 1,
+      "Def": 1,
+      "Res": 2,
+      "Lck": 0,
+      "Cha": 1,
+      "Mov": 6
+    },
+    "skills": [
+      "Sword",
+      "Spear",
+      "Flying"
+    ],
+    "skill_growths": {
+      "Sword": 1,
+      "Spear": 1,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 2
+    },
+    "mount": "Pegasus"
+  },
+  "Shaman": {
+    "name": "Shaman",
+    "tier": 2,
+    "growths": {
+      "HP": 5,
+      "Str": -5,
+      "Mag": 15,
+      "Spd": 10,
+      "Dex": 10,
+      "Def": -10,
+      "Res": 10,
+      "Lck": 10,
+      "Cha": 0
+    },
+    "stat_bonuses": {
+      "HP": 0,
+      "Str": 0,
+      "Mag": 2,
+      "Spd": 1,
+      "Dex": 1,
+      "Def": 0,
+      "Res": 2,
+      "Lck": 0,
+      "Cha": -1,
+      "Mov": 5
+    },
+    "skills": [
+      "Sword",
+      "Brawling",
+      "Reason",
+      "Faith",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 1,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 2,
+      "Faith": 1,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Priest": {
+    "name": "Priest",
+    "tier": 2,
+    "growths": {
+      "HP": 5,
+      "Str": -5,
+      "Mag": 10,
+      "Spd": 5,
+      "Dex": 5,
+      "Def": -10,
+      "Res": 15,
+      "Lck": 15,
+      "Cha": 10
+    },
+    "stat_bonuses": {
+      "HP": 0,
+      "Str": 0,
+      "Mag": 1,
+      "Spd": 0,
+      "Dex": 0,
+      "Def": 0,
+      "Res": 3,
+      "Lck": 2,
+      "Cha": 1,
+      "Mov": 5
+    },
+    "skills": [
+      "Axe",
+      "Brawling",
+      "Reason",
+      "Faith",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 1,
+      "Reason": 1,
+      "Faith": 2,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Shido": {
+    "name": "Shido",
+    "tier": 3,
+    "growths": {
+      "HP": 10,
+      "Str": 5,
+      "Mag": 0,
+      "Spd": 15,
+      "Dex": 10,
+      "Def": 0,
+      "Res": -5,
+      "Lck": 5,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 3,
+      "Str": 0,
+      "Mag": 0,
+      "Spd": 7,
+      "Dex": 3,
+      "Def": 0,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 6
+    },
+    "skills": [
+      "Sword",
+      "Spear",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 3,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 2,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Dancer": {
+    "name": "Dancer",
+    "tier": 3,
+    "growths": {
+      "HP": 15,
+      "Str": 5,
+      "Mag": 0,
+      "Spd": 25,
+      "Dex": 10,
+      "Def": 0,
+      "Res": 5,
+      "Lck": 10,
+      "Cha": 20
+    },
+    "stat_bonuses": {
+      "HP": 4,
+      "Str": 0,
+      "Mag": 0,
+      "Spd": 9,
+      "Dex": 5,
+      "Def": 0,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 5,
+      "Mov": 5
+    },
+    "skills": [
+      "Sword",
+      "Bow",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 3,
+      "Spear": 0,
+      "Axe": 2,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 4,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Warrior": {
+    "name": "Warrior",
+    "tier": 3,
+    "growths": {
+      "HP": 20,
+      "Str": 20,
+      "Mag": -5,
+      "Spd": 0,
+      "Dex": 0,
+      "Def": 5,
+      "Res": -5,
+      "Lck": 0,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 4,
+      "Str": 4,
+      "Mag": 0,
+      "Spd": 1,
+      "Dex": 0,
+      "Def": 0,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 6
+    },
+    "skills": [
+      "Sword",
+      "Axe",
+      "Brawling",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 2,
+      "Spear": 0,
+      "Axe": 3,
+      "Bow": 0,
+      "Brawling": 2,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 1,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Blacksmith": {
+    "name": "Blacksmith",
+    "tier": 3,
+    "growths": {
+      "HP": 15,
+      "Str": 10,
+      "Mag": 10,
+      "Spd": 0,
+      "Dex": 5,
+      "Def": 10,
+      "Res": 10,
+      "Lck": 0,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 5,
+      "Str": 1,
+      "Mag": 1,
+      "Spd": 1,
+      "Dex": 0,
+      "Def": 3,
+      "Res": 1,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 5
+    },
+    "skills": [
+      "Axe",
+      "Reason",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 0,
+      "Axe": 3,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 1,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 1,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Sniper": {
+    "name": "Sniper",
+    "tier": 3,
+    "growths": {
+      "HP": 10,
+      "Str": 5,
+      "Mag": 0,
+      "Spd": 10,
+      "Dex": 20,
+      "Def": 5,
+      "Res": 5,
+      "Lck": 5,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 1,
+      "Str": 0,
+      "Mag": 0,
+      "Spd": 5,
+      "Dex": 5,
+      "Def": 0,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 6
+    },
+    "skills": [
+      "Bow",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 3,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 1,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Forest Knight": {
+    "name": "Forest Knight",
+    "tier": 3,
+    "growths": {
+      "HP": 10,
+      "Str": 5,
+      "Mag": 0,
+      "Spd": 10,
+      "Dex": 10,
+      "Def": 5,
+      "Res": 5,
+      "Lck": 5,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 1,
+      "Str": 0,
+      "Mag": 0,
+      "Spd": 5,
+      "Dex": 2,
+      "Def": 1,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 7
+    },
+    "skills": [
+      "Sword",
+      "Bow",
+      "Riding"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 2,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 2,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": "Horse"
+  },
+  "Ranger": {
+    "name": "Ranger",
+    "tier": 3,
+    "growths": {
+      "HP": 10,
+      "Str": 5,
+      "Mag": 0,
+      "Spd": 15,
+      "Dex": 15,
+      "Def": 0,
+      "Res": 10,
+      "Lck": 15,
+      "Cha": 0
+    },
+    "stat_bonuses": {
+      "HP": 1,
+      "Str": 0,
+      "Mag": 0,
+      "Spd": 7,
+      "Dex": 4,
+      "Def": 0,
+      "Res": 1,
+      "Lck": 1,
+      "Cha": 1,
+      "Mov": 5
+    },
+    "skills": [
+      "Sword",
+      "Bow",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 2,
+      "Spear": 2,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 3,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Guardian": {
+    "name": "Guardian",
+    "tier": 3,
+    "growths": {
+      "HP": 10,
+      "Str": 10,
+      "Mag": 0,
+      "Spd": 0,
+      "Dex": 5,
+      "Def": 10,
+      "Res": 15,
+      "Lck": 5,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 3,
+      "Str": 1,
+      "Mag": 0,
+      "Spd": 1,
+      "Dex": 0,
+      "Def": 3,
+      "Res": 4,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 5
+    },
+    "skills": [
+      "Spear",
+      "Faith",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 3,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 1,
+      "Authority": 0,
+      "Infantry": 1,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Dreadnought": {
+    "name": "Dreadnought",
+    "tier": 3,
+    "growths": {
+      "HP": 15,
+      "Str": 15,
+      "Mag": -5,
+      "Spd": -10,
+      "Dex": 5,
+      "Def": 30,
+      "Res": -10,
+      "Lck": 0,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 5,
+      "Str": 3,
+      "Mag": 0,
+      "Spd": -5,
+      "Dex": 0,
+      "Def": 9,
+      "Res": -1,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 4
+    },
+    "skills": [
+      "Spear",
+      "Axe",
+      "Infantry",
+      "Armor"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 2,
+      "Axe": 2,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 1,
+      "Riding": 0,
+      "Armor": 3,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Bardinger": {
+    "name": "Bardinger",
+    "tier": 3,
+    "growths": {
+      "HP": 10,
+      "Str": 10,
+      "Mag": -5,
+      "Spd": 0,
+      "Dex": 0,
+      "Def": 5,
+      "Res": 10,
+      "Lck": 5,
+      "Cha": 10
+    },
+    "stat_bonuses": {
+      "HP": 3,
+      "Str": 0,
+      "Mag": 0,
+      "Spd": 1,
+      "Dex": 0,
+      "Def": 1,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 3,
+      "Mov": 6
+    },
+    "skills": [
+      "Sword",
+      "Spear",
+      "Axe",
+      "Riding"
+    ],
+    "skill_growths": {
+      "Sword": 2,
+      "Spear": 2,
+      "Axe": 1,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 3,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": "Horse"
+  },
+  "Cataphract": {
+    "name": "Cataphract",
+    "tier": 3,
+    "growths": {
+      "HP": 15,
+      "Str": 15,
+      "Mag": -5,
+      "Spd": -10,
+      "Dex": 0,
+      "Def": 10,
+      "Res": -5,
+      "Lck": 0,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 5,
+      "Str": 2,
+      "Mag": 0,
+      "Spd": -1,
+      "Dex": 0,
+      "Def": 5,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 6
+    },
+    "skills": [
+      "Sword",
+      "Spear",
+      "Axe",
+      "Riding",
+      "Armor"
+    ],
+    "skill_growths": {
+      "Sword": 1,
+      "Spear": 2,
+      "Axe": 2,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 1,
+      "Armor": 1,
+      "Flying": 0
+    },
+    "mount": "Horse"
+  },
+  "Caladrius": {
+    "name": "Caladrius",
+    "tier": 3,
+    "growths": {
+      "HP": 15,
+      "Str": 0,
+      "Mag": 10,
+      "Spd": 10,
+      "Dex": 5,
+      "Def": 10,
+      "Res": 10,
+      "Lck": 5,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 2,
+      "Str": 0,
+      "Mag": 1,
+      "Spd": 3,
+      "Dex": 0,
+      "Def": 1,
+      "Res": 2,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 6
+    },
+    "skills": [
+      "Sword",
+      "Spear",
+      "Axe",
+      "Reason",
+      "Riding",
+      "Flying"
+    ],
+    "skill_growths": {
+      "Sword": 1,
+      "Spear": 2,
+      "Axe": 2,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 2,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 1,
+      "Armor": 0,
+      "Flying": 1
+    },
+    "mount": "Ornius"
+  },
+  "Dragoon": {
+    "name": "Dragoon",
+    "tier": 3,
+    "growths": {
+      "HP": 15,
+      "Str": 5,
+      "Mag": 0,
+      "Spd": 5,
+      "Dex": 0,
+      "Def": 10,
+      "Res": 10,
+      "Lck": 10,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 2,
+      "Str": 1,
+      "Mag": 0,
+      "Spd": 3,
+      "Dex": 1,
+      "Def": 1,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 7
+    },
+    "skills": [
+      "Sword",
+      "Spear",
+      "Axe",
+      "Flying"
+    ],
+    "skill_growths": {
+      "Sword": 1,
+      "Spear": 1,
+      "Axe": 3,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 3
+    },
+    "mount": "Bau"
+  },
+  "Ovate": {
+    "name": "Ovate",
+    "tier": 3,
+    "growths": {
+      "HP": 10,
+      "Str": -5,
+      "Mag": 20,
+      "Spd": 5,
+      "Dex": 15,
+      "Def": -10,
+      "Res": 15,
+      "Lck": 10,
+      "Cha": 0
+    },
+    "stat_bonuses": {
+      "HP": 1,
+      "Str": 0,
+      "Mag": 4,
+      "Spd": 3,
+      "Dex": 4,
+      "Def": 0,
+      "Res": 4,
+      "Lck": 0,
+      "Cha": -1,
+      "Mov": 5
+    },
+    "skills": [
+      "Sword",
+      "Brawling",
+      "Reason",
+      "Faith",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 2,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 1,
+      "Reason": 3,
+      "Faith": 1,
+      "Authority": 0,
+      "Infantry": 1,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Bishop": {
+    "name": "Bishop",
+    "tier": 3,
+    "growths": {
+      "HP": 10,
+      "Str": -5,
+      "Mag": 15,
+      "Spd": 0,
+      "Dex": 5,
+      "Def": -10,
+      "Res": 20,
+      "Lck": 20,
+      "Cha": 10
+    },
+    "stat_bonuses": {
+      "HP": 1,
+      "Str": 0,
+      "Mag": 3,
+      "Spd": 1,
+      "Dex": 0,
+      "Def": 0,
+      "Res": 5,
+      "Lck": 3,
+      "Cha": 3,
+      "Mov": 5
+    },
+    "skills": [
+      "Axe",
+      "Brawling",
+      "Reason",
+      "Faith",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 0,
+      "Axe": 1,
+      "Bow": 0,
+      "Brawling": 2,
+      "Reason": 1,
+      "Faith": 3,
+      "Authority": 0,
+      "Infantry": 1,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Troubadour": {
+    "name": "Troubadour",
+    "tier": 3,
+    "growths": {
+      "HP": 10,
+      "Str": 0,
+      "Mag": 15,
+      "Spd": 0,
+      "Dex": 5,
+      "Def": 5,
+      "Res": 15,
+      "Lck": 15,
+      "Cha": 10
+    },
+    "stat_bonuses": {
+      "HP": 0,
+      "Str": 0,
+      "Mag": 1,
+      "Spd": 1,
+      "Dex": 1,
+      "Def": 1,
+      "Res": 2,
+      "Lck": 0,
+      "Cha": 3,
+      "Mov": 6
+    },
+    "skills": [
+      "Reason",
+      "Faith",
+      "Riding"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 2,
+      "Faith": 2,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 2,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": "Horse"
+  },
+  "Elephant Rider": {
+    "name": "Elephant Rider",
+    "tier": 3,
+    "growths": {
+      "HP": 20,
+      "Str": 10,
+      "Mag": -5,
+      "Spd": -10,
+      "Dex": 20,
+      "Def": 15,
+      "Res": -5,
+      "Lck": 5,
+      "Cha": 10
+    },
+    "stat_bonuses": {
+      "HP": 10,
+      "Str": 2,
+      "Mag": 0,
+      "Spd": -5,
+      "Dex": 3,
+      "Def": 7,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 3,
+      "Mov": 5
+    },
+    "skills": [
+      "Riding"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 2,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": "Elephant"
+  },
+  "Swordmaster": {
+    "name": "Swordmaster",
+    "tier": 4,
+    "growths": {
+      "HP": 15,
+      "Str": 10,
+      "Mag": 0,
+      "Spd": 20,
+      "Dex": 15,
+      "Def": 0,
+      "Res": 0,
+      "Lck": 5,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 5,
+      "Str": 2,
+      "Mag": 0,
+      "Spd": 7,
+      "Dex": 7,
+      "Def": 0,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 5
+    },
+    "skills": [
+      "Sword",
+      "Spear",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 4,
+      "Spear": 1,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 2,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "High Savant": {
+    "name": "High Savant",
+    "tier": 4,
+    "growths": {
+      "HP": 10,
+      "Str": 15,
+      "Mag": 15,
+      "Spd": 10,
+      "Dex": 5,
+      "Def": 5,
+      "Res": 5,
+      "Lck": 5,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 5,
+      "Str": 2,
+      "Mag": 2,
+      "Spd": 3,
+      "Dex": 3,
+      "Def": 2,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 7
+    },
+    "skills": [
+      "Sword",
+      "Reason",
+      "Riding"
+    ],
+    "skill_growths": {
+      "Sword": 3,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 2,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 2,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": "Horse"
+  },
+  "Battlemaster": {
+    "name": "Battlemaster",
+    "tier": 4,
+    "growths": {
+      "HP": 25,
+      "Str": 25,
+      "Mag": -5,
+      "Spd": 5,
+      "Dex": -5,
+      "Def": 10,
+      "Res": -5,
+      "Lck": -5,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 13,
+      "Str": 6,
+      "Mag": 0,
+      "Spd": 2,
+      "Dex": 0,
+      "Def": 4,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 5
+    },
+    "skills": [
+      "Sword",
+      "Axe",
+      "Brawling",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 2,
+      "Spear": 0,
+      "Axe": 4,
+      "Bow": 0,
+      "Brawling": 2,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 1,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "War Monk": {
+    "name": "War Monk",
+    "tier": 4,
+    "growths": {
+      "HP": 15,
+      "Str": 10,
+      "Mag": 0,
+      "Spd": 15,
+      "Dex": 0,
+      "Def": 5,
+      "Res": 15,
+      "Lck": 5,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 5,
+      "Str": 2,
+      "Mag": 0,
+      "Spd": 5,
+      "Dex": 2,
+      "Def": 2,
+      "Res": 4,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 5
+    },
+    "skills": [
+      "Brawling",
+      "Faith",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 4,
+      "Reason": 0,
+      "Faith": 2,
+      "Authority": 0,
+      "Infantry": 2,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Bow Adept": {
+    "name": "Bow Adept",
+    "tier": 4,
+    "growths": {
+      "HP": 15,
+      "Str": 5,
+      "Mag": 0,
+      "Spd": 15,
+      "Dex": 20,
+      "Def": 5,
+      "Res": 5,
+      "Lck": 5,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 4,
+      "Str": 2,
+      "Mag": 0,
+      "Spd": 5,
+      "Dex": 9,
+      "Def": 0,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 5
+    },
+    "skills": [
+      "Bow",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 4,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 2,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Bow Knight": {
+    "name": "Bow Knight",
+    "tier": 4,
+    "growths": {
+      "HP": 10,
+      "Str": 10,
+      "Mag": 0,
+      "Spd": 15,
+      "Dex": 10,
+      "Def": 5,
+      "Res": 0,
+      "Lck": 5,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 3,
+      "Str": 2,
+      "Mag": 0,
+      "Spd": 7,
+      "Dex": 5,
+      "Def": 2,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 7
+    },
+    "skills": [
+      "Sword",
+      "Bow",
+      "Riding"
+    ],
+    "skill_growths": {
+      "Sword": 1,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 3,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 2,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": "Horse"
+  },
+  "Shadow Seeker": {
+    "name": "Shadow Seeker",
+    "tier": 4,
+    "growths": {
+      "HP": 15,
+      "Str": 5,
+      "Mag": 0,
+      "Spd": 25,
+      "Dex": 15,
+      "Def": 0,
+      "Res": 10,
+      "Lck": 15,
+      "Cha": 0
+    },
+    "stat_bonuses": {
+      "HP": 4,
+      "Str": 0,
+      "Mag": 0,
+      "Spd": 9,
+      "Dex": 7,
+      "Def": 0,
+      "Res": 0,
+      "Lck": 2,
+      "Cha": -2,
+      "Mov": 5
+    },
+    "skills": [
+      "Sword",
+      "Bow",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 2,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 3,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 4,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Sentinel": {
+    "name": "Sentinel",
+    "tier": 4,
+    "growths": {
+      "HP": 15,
+      "Str": 15,
+      "Mag": 0,
+      "Spd": 5,
+      "Dex": 5,
+      "Def": 10,
+      "Res": 15,
+      "Lck": 5,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 5,
+      "Str": 4,
+      "Mag": 0,
+      "Spd": 2,
+      "Dex": 4,
+      "Def": 4,
+      "Res": 5,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 5
+    },
+    "skills": [
+      "Spear",
+      "Faith",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 4,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 2,
+      "Authority": 0,
+      "Infantry": 1,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Castle Knight": {
+    "name": "Castle Knight",
+    "tier": 4,
+    "growths": {
+      "HP": 25,
+      "Str": 20,
+      "Mag": -5,
+      "Spd": -15,
+      "Dex": 5,
+      "Def": 30,
+      "Res": -10,
+      "Lck": 0,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 9,
+      "Str": 6,
+      "Mag": 0,
+      "Spd": -6,
+      "Dex": 4,
+      "Def": 13,
+      "Res": -2,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 4
+    },
+    "skills": [
+      "Spear",
+      "Axe",
+      "Infantry",
+      "Armor"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 2,
+      "Axe": 2,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 1,
+      "Riding": 0,
+      "Armor": 4,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Orichaldia": {
+    "name": "Orichaldia",
+    "tier": 4,
+    "growths": {
+      "HP": 15,
+      "Str": 15,
+      "Mag": -5,
+      "Spd": 5,
+      "Dex": 0,
+      "Def": 5,
+      "Res": 5,
+      "Lck": 5,
+      "Cha": 10
+    },
+    "stat_bonuses": {
+      "HP": 7,
+      "Str": 3,
+      "Mag": 0,
+      "Spd": 2,
+      "Dex": 3,
+      "Def": 2,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 2,
+      "Mov": 7
+    },
+    "skills": [
+      "Sword",
+      "Spear",
+      "Axe",
+      "Riding"
+    ],
+    "skill_growths": {
+      "Sword": 2,
+      "Spear": 3,
+      "Axe": 1,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 4,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": "Horse"
+  },
+  "Great Knight": {
+    "name": "Great Knight",
+    "tier": 4,
+    "growths": {
+      "HP": 20,
+      "Str": 20,
+      "Mag": -5,
+      "Spd": -10,
+      "Dex": 0,
+      "Def": 15,
+      "Res": -10,
+      "Lck": 0,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 12,
+      "Str": 5,
+      "Mag": 0,
+      "Spd": -4,
+      "Dex": 2,
+      "Def": 5,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 6
+    },
+    "skills": [
+      "Sword",
+      "Spear",
+      "Axe",
+      "Riding",
+      "Armor"
+    ],
+    "skill_growths": {
+      "Sword": 1,
+      "Spear": 2,
+      "Axe": 3,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 2,
+      "Armor": 2,
+      "Flying": 0
+    },
+    "mount": "Horse"
+  },
+  "Celestial Trooper": {
+    "name": "Celestial Trooper",
+    "tier": 4,
+    "growths": {
+      "HP": 15,
+      "Str": 5,
+      "Mag": -5,
+      "Spd": 10,
+      "Dex": 5,
+      "Def": 5,
+      "Res": 15,
+      "Lck": 15,
+      "Cha": 10
+    },
+    "stat_bonuses": {
+      "HP": 3,
+      "Str": 0,
+      "Mag": 0,
+      "Spd": 5,
+      "Dex": 3,
+      "Def": 0,
+      "Res": 5,
+      "Lck": 0,
+      "Cha": 2,
+      "Mov": 7
+    },
+    "skills": [
+      "Sword",
+      "Spear",
+      "Flying"
+    ],
+    "skill_growths": {
+      "Sword": 2,
+      "Spear": 3,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 4
+    },
+    "mount": "Pegasus"
+  },
+  "Bau Lord": {
+    "name": "Bau Lord",
+    "tier": 4,
+    "growths": {
+      "HP": 15,
+      "Str": 5,
+      "Mag": 0,
+      "Spd": 5,
+      "Dex": 0,
+      "Def": 10,
+      "Res": 10,
+      "Lck": 10,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 5,
+      "Str": 2,
+      "Mag": 0,
+      "Spd": 3,
+      "Dex": 3,
+      "Def": 3,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 0,
+      "Mov": 7
+    },
+    "skills": [
+      "Sword",
+      "Spear",
+      "Axe",
+      "Flying"
+    ],
+    "skill_growths": {
+      "Sword": 1,
+      "Spear": 2,
+      "Axe": 3,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 4
+    },
+    "mount": "Bau"
+  },
+  "Druid": {
+    "name": "Druid",
+    "tier": 4,
+    "growths": {
+      "HP": 10,
+      "Str": -5,
+      "Mag": 30,
+      "Spd": 10,
+      "Dex": 15,
+      "Def": -10,
+      "Res": 20,
+      "Lck": 10,
+      "Cha": 0
+    },
+    "stat_bonuses": {
+      "HP": 4,
+      "Str": 0,
+      "Mag": 7,
+      "Spd": 4,
+      "Dex": 7,
+      "Def": 0,
+      "Res": 5,
+      "Lck": 0,
+      "Cha": -2,
+      "Mov": 5
+    },
+    "skills": [
+      "Sword",
+      "Brawling",
+      "Reason",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 2,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 1,
+      "Reason": 4,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 1,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Wiseman": {
+    "name": "Wiseman",
+    "tier": 4,
+    "growths": {
+      "HP": 10,
+      "Str": -5,
+      "Mag": 20,
+      "Spd": 5,
+      "Dex": 0,
+      "Def": -10,
+      "Res": 25,
+      "Lck": 20,
+      "Cha": 10
+    },
+    "stat_bonuses": {
+      "HP": 4,
+      "Str": 0,
+      "Mag": 5,
+      "Spd": 2,
+      "Dex": 2,
+      "Def": 0,
+      "Res": 9,
+      "Lck": 4,
+      "Cha": 2,
+      "Mov": 5
+    },
+    "skills": [
+      "Axe",
+      "Brawling",
+      "Faith",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 0,
+      "Axe": 1,
+      "Bow": 0,
+      "Brawling": 2,
+      "Reason": 0,
+      "Faith": 4,
+      "Authority": 0,
+      "Infantry": 1,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "Valkyrium": {
+    "name": "Valkyrium",
+    "tier": 4,
+    "growths": {
+      "HP": 10,
+      "Str": 0,
+      "Mag": 15,
+      "Spd": 5,
+      "Dex": 5,
+      "Def": 5,
+      "Res": 10,
+      "Lck": 15,
+      "Cha": 10
+    },
+    "stat_bonuses": {
+      "HP": 2,
+      "Str": 0,
+      "Mag": 2,
+      "Spd": 2,
+      "Dex": 3,
+      "Def": 2,
+      "Res": 3,
+      "Lck": 0,
+      "Cha": 2,
+      "Mov": 7
+    },
+    "skills": [
+      "Reason",
+      "Faith",
+      "Riding"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 3,
+      "Faith": 2,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 2,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": "Horse"
+  },
+  "The Blade": {
+    "name": "The Blade",
+    "tier": 5,
+    "growths": {
+      "HP": 15,
+      "Str": 10,
+      "Mag": 10,
+      "Spd": 20,
+      "Dex": 20,
+      "Def": 5,
+      "Res": 5,
+      "Lck": 5,
+      "Cha": 10
+    },
+    "stat_bonuses": {
+      "HP": 7,
+      "Str": 4,
+      "Mag": 4,
+      "Spd": 7,
+      "Dex": 7,
+      "Def": 0,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 2,
+      "Mov": 6
+    },
+    "skills": [
+      "Sword",
+      "Spear",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 5,
+      "Spear": 1,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 2,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "The Apsara": {
+    "name": "The Apsara",
+    "tier": 5,
+    "growths": {
+      "HP": 15,
+      "Str": 5,
+      "Mag": 10,
+      "Spd": 25,
+      "Dex": 15,
+      "Def": 5,
+      "Res": 5,
+      "Lck": 10,
+      "Cha": 30
+    },
+    "stat_bonuses": {
+      "HP": 5,
+      "Str": 2,
+      "Mag": 4,
+      "Spd": 7,
+      "Dex": 5,
+      "Def": 0,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 9,
+      "Mov": 6
+    },
+    "skills": [
+      "Sword",
+      "Bow",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 4,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 2,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 5,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "The Eternal": {
+    "name": "The Eternal",
+    "tier": 5,
+    "growths": {
+      "HP": 30,
+      "Str": 30,
+      "Mag": 0,
+      "Spd": 10,
+      "Dex": 0,
+      "Def": 15,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 10
+    },
+    "stat_bonuses": {
+      "HP": 12,
+      "Str": 6,
+      "Mag": 0,
+      "Spd": 2,
+      "Dex": 1,
+      "Def": 5,
+      "Res": 0,
+      "Lck": 0,
+      "Cha": 2,
+      "Mov": 6
+    },
+    "skills": [
+      "Sword",
+      "Axe",
+      "Reason",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 3,
+      "Spear": 0,
+      "Axe": 5,
+      "Bow": 0,
+      "Brawling": 3,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 1,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "The Godhand": {
+    "name": "The Godhand",
+    "tier": 5,
+    "growths": {
+      "HP": 15,
+      "Str": 10,
+      "Mag": 10,
+      "Spd": 15,
+      "Dex": 5,
+      "Def": 10,
+      "Res": 15,
+      "Lck": 5,
+      "Cha": 10
+    },
+    "stat_bonuses": {
+      "HP": 7,
+      "Str": 4,
+      "Mag": 4,
+      "Spd": 5,
+      "Dex": 2,
+      "Def": 4,
+      "Res": 5,
+      "Lck": 0,
+      "Cha": 2,
+      "Mov": 6
+    },
+    "skills": [
+      "Brawling",
+      "Faith",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 5,
+      "Reason": 0,
+      "Faith": 3,
+      "Authority": 0,
+      "Infantry": 3,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "The Calamity": {
+    "name": "The Calamity",
+    "tier": 5,
+    "growths": {
+      "HP": 15,
+      "Str": 5,
+      "Mag": 15,
+      "Spd": 25,
+      "Dex": 20,
+      "Def": 5,
+      "Res": 15,
+      "Lck": 15,
+      "Cha": 5
+    },
+    "stat_bonuses": {
+      "HP": 5,
+      "Str": 2,
+      "Mag": 4,
+      "Spd": 7,
+      "Dex": 5,
+      "Def": 0,
+      "Res": 4,
+      "Lck": 4,
+      "Cha": 0,
+      "Mov": 6
+    },
+    "skills": [
+      "Sword",
+      "Bow",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 2,
+      "Spear": 0,
+      "Axe": 0,
+      "Bow": 4,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 5,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "The Trident": {
+    "name": "The Trident",
+    "tier": 5,
+    "growths": {
+      "HP": 15,
+      "Str": 15,
+      "Mag": 5,
+      "Spd": 10,
+      "Dex": 10,
+      "Def": 15,
+      "Res": 15,
+      "Lck": 5,
+      "Cha": 10
+    },
+    "stat_bonuses": {
+      "HP": 7,
+      "Str": 4,
+      "Mag": 4,
+      "Spd": 2,
+      "Dex": 4,
+      "Def": 5,
+      "Res": 5,
+      "Lck": 0,
+      "Cha": 2,
+      "Mov": 6
+    },
+    "skills": [
+      "Spear",
+      "Faith",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 0,
+      "Spear": 5,
+      "Axe": 0,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 3,
+      "Authority": 0,
+      "Infantry": 1,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  },
+  "The Cavalier": {
+    "name": "The Cavalier",
+    "tier": 5,
+    "growths": {
+      "HP": 20,
+      "Str": 15,
+      "Mag": 5,
+      "Spd": 10,
+      "Dex": 10,
+      "Def": 15,
+      "Res": 10,
+      "Lck": 5,
+      "Cha": 15
+    },
+    "stat_bonuses": {
+      "HP": 11,
+      "Str": 3,
+      "Mag": 0,
+      "Spd": 4,
+      "Dex": 5,
+      "Def": 5,
+      "Res": 1,
+      "Lck": 0,
+      "Cha": 2,
+      "Mov": 8
+    },
+    "skills": [
+      "Sword",
+      "Spear",
+      "Axe",
+      "Riding"
+    ],
+    "skill_growths": {
+      "Sword": 3,
+      "Spear": 3,
+      "Axe": 3,
+      "Bow": 0,
+      "Brawling": 0,
+      "Reason": 0,
+      "Faith": 0,
+      "Authority": 0,
+      "Infantry": 0,
+      "Riding": 5,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": "Horse"
+  },
+  "The Avatar": {
+    "name": "The Avatar",
+    "tier": 5,
+    "growths": {
+      "HP": 10,
+      "Str": -5,
+      "Mag": 30,
+      "Spd": 10,
+      "Dex": 5,
+      "Def": -5,
+      "Res": 30,
+      "Lck": 20,
+      "Cha": 10
+    },
+    "stat_bonuses": {
+      "HP": 5,
+      "Str": 0,
+      "Mag": 9,
+      "Spd": 2,
+      "Dex": 2,
+      "Def": 0,
+      "Res": 9,
+      "Lck": 5,
+      "Cha": 2,
+      "Mov": 6
+    },
+    "skills": [
+      "Sword",
+      "Axe",
+      "Brawling",
+      "Reason",
+      "Faith",
+      "Infantry"
+    ],
+    "skill_growths": {
+      "Sword": 2,
+      "Spear": 0,
+      "Axe": 1,
+      "Bow": 0,
+      "Brawling": 2,
+      "Reason": 5,
+      "Faith": 5,
+      "Authority": 0,
+      "Infantry": 1,
+      "Riding": 0,
+      "Armor": 0,
+      "Flying": 0
+    },
+    "mount": null
+  }
+}

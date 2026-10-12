@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from modules.core import Bot
+from modules.bot import Bot
 
 
 if __name__ == "__main__":

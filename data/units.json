@@ -1,0 +1,1829 @@
+{
+  "Eshmel": {
+    "name": "Eshmel",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 50,
+      "Str": 45,
+      "Mag": 45,
+      "Spd": 45,
+      "Dex": 45,
+      "Def": 35,
+      "Res": 35,
+      "Lck": 40,
+      "Cha": 50
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Boon",
+      "Axe": "Neutral",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Neutral",
+      "Authority": "Boon",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Cai": {
+    "name": "Cai",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 45,
+      "Str": 45,
+      "Mag": 40,
+      "Spd": 45,
+      "Dex": 45,
+      "Def": 35,
+      "Res": 35,
+      "Lck": 40,
+      "Cha": 40
+    },
+    "skills": {
+      "Sword": "Boon",
+      "Spear": "Boon",
+      "Axe": "Neutral",
+      "Bow": "Bane",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Boon",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Boon",
+      "Armor": "Neutral",
+      "Flying": "Bane"
+    }
+  },
+  "Tialla": {
+    "name": "Tialla",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 30,
+      "Str": 25,
+      "Mag": 45,
+      "Spd": 35,
+      "Dex": 40,
+      "Def": 20,
+      "Res": 40,
+      "Lck": 50,
+      "Cha": 45
+    },
+    "skills": {
+      "Sword": "Bane",
+      "Spear": "Neutral",
+      "Axe": "Neutral",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Boon",
+      "Faith": "Boon",
+      "Authority": "Boon",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Peter": {
+    "name": "Peter",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 40,
+      "Str": 35,
+      "Mag": 20,
+      "Spd": 45,
+      "Dex": 60,
+      "Def": 30,
+      "Res": 25,
+      "Lck": 35,
+      "Cha": 30
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Neutral",
+      "Axe": "Neutral",
+      "Bow": "Boon",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Neutral",
+      "Authority": "Neutral",
+      "Infantry": "Boon",
+      "Riding": "Neutral",
+      "Armor": "Bane",
+      "Flying": "Neutral"
+    }
+  },
+  "Ultand": {
+    "name": "Ultand",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 45,
+      "Str": 40,
+      "Mag": 40,
+      "Spd": 35,
+      "Dex": 40,
+      "Def": 35,
+      "Res": 45,
+      "Lck": 55,
+      "Cha": 50
+    },
+    "skills": {
+      "Sword": "Bane",
+      "Spear": "Boon",
+      "Axe": "Neutral",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Boon",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Boon"
+    }
+  },
+  "Bertrand": {
+    "name": "Bertrand",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 50,
+      "Str": 55,
+      "Mag": 15,
+      "Spd": 45,
+      "Dex": 50,
+      "Def": 45,
+      "Res": 20,
+      "Lck": 30,
+      "Cha": 50
+    },
+    "skills": {
+      "Sword": "Boon",
+      "Spear": "Neutral",
+      "Axe": "Boon",
+      "Bow": "Neutral",
+      "Brawling": "Boon",
+      "Reason": "Bane",
+      "Faith": "Bane",
+      "Authority": "Boon",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Gaitz": {
+    "name": "Gaitz",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 50,
+      "Str": 50,
+      "Mag": 20,
+      "Spd": 40,
+      "Dex": 45,
+      "Def": 45,
+      "Res": 25,
+      "Lck": 40,
+      "Cha": 45
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Boon",
+      "Axe": "Boon",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Bane",
+      "Faith": "Bane",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Boon",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Jester": {
+    "name": "Jester",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 40,
+      "Str": 35,
+      "Mag": 15,
+      "Spd": 60,
+      "Dex": 45,
+      "Def": 35,
+      "Res": 25,
+      "Lck": 40,
+      "Cha": 40
+    },
+    "skills": {
+      "Sword": "Boon",
+      "Spear": "Neutral",
+      "Axe": "Bane",
+      "Bow": "Boon",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Neutral",
+      "Authority": "Neutral",
+      "Infantry": "Boon",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Goliath": {
+    "name": "Goliath",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 55,
+      "Str": 60,
+      "Mag": 5,
+      "Spd": 15,
+      "Dex": 30,
+      "Def": 50,
+      "Res": 20,
+      "Lck": 35,
+      "Cha": 20
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Neutral",
+      "Axe": "Boon",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Bane",
+      "Faith": "Bane",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Boon",
+      "Flying": "Bane"
+    }
+  },
+  "Dante": {
+    "name": "Dante",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 30,
+      "Str": 30,
+      "Mag": 45,
+      "Spd": 40,
+      "Dex": 40,
+      "Def": 20,
+      "Res": 40,
+      "Lck": 45,
+      "Cha": 30
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Neutral",
+      "Axe": "Neutral",
+      "Bow": "Neutral",
+      "Brawling": "Bane",
+      "Reason": "Boon",
+      "Faith": "Boon",
+      "Authority": "Boon",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Dietrich": {
+    "name": "Dietrich",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 50,
+      "Str": 45,
+      "Mag": 30,
+      "Spd": 50,
+      "Dex": 60,
+      "Def": 40,
+      "Res": 30,
+      "Lck": 50,
+      "Cha": 60
+    },
+    "skills": {
+      "Sword": "Boon",
+      "Spear": "Neutral",
+      "Axe": "Neutral",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Bane",
+      "Authority": "Neutral",
+      "Infantry": "Boon",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Fabio": {
+    "name": "Fabio",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 40,
+      "Str": 25,
+      "Mag": 50,
+      "Spd": 35,
+      "Dex": 40,
+      "Def": 30,
+      "Res": 45,
+      "Lck": 35,
+      "Cha": 30
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Neutral",
+      "Axe": "Neutral",
+      "Bow": "Bane",
+      "Brawling": "Neutral",
+      "Reason": "Boon",
+      "Faith": "Neutral",
+      "Authority": "Boon",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Esmeralda": {
+    "name": "Esmeralda",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 55,
+      "Str": 55,
+      "Mag": 20,
+      "Spd": 35,
+      "Dex": 35,
+      "Def": 45,
+      "Res": 25,
+      "Lck": 35,
+      "Cha": 30
+    },
+    "skills": {
+      "Sword": "Bane",
+      "Spear": "Boon",
+      "Axe": "Boon",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Bane",
+      "Faith": "Neutral",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Boon",
+      "Flying": "Neutral"
+    }
+  },
+  "Mikaela": {
+    "name": "Mikaela",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 50,
+      "Str": 45,
+      "Mag": 30,
+      "Spd": 40,
+      "Dex": 35,
+      "Def": 40,
+      "Res": 25,
+      "Lck": 30,
+      "Cha": 40
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Neutral",
+      "Axe": "Boon",
+      "Bow": "Boon",
+      "Brawling": "Neutral",
+      "Reason": "Bane",
+      "Faith": "Bane",
+      "Authority": "Neutral",
+      "Infantry": "Boon",
+      "Riding": "Bane",
+      "Armor": "Neutral",
+      "Flying": "Bane"
+    }
+  },
+  "Orchel": {
+    "name": "Orchel",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 30,
+      "Str": 60,
+      "Mag": 45,
+      "Spd": 10,
+      "Dex": 20,
+      "Def": 60,
+      "Res": 60,
+      "Lck": 20,
+      "Cha": 60
+    },
+    "skills": {
+      "Sword": "Bane",
+      "Spear": "Neutral",
+      "Axe": "Boon",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Boon",
+      "Faith": "Boon",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Bane",
+      "Armor": "Neutral",
+      "Flying": "Bane"
+    }
+  },
+  "Diego": {
+    "name": "Diego",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 45,
+      "Str": 40,
+      "Mag": 20,
+      "Spd": 45,
+      "Dex": 60,
+      "Def": 35,
+      "Res": 20,
+      "Lck": 35,
+      "Cha": 30
+    },
+    "skills": {
+      "Sword": "Boon",
+      "Spear": "Neutral",
+      "Axe": "Neutral",
+      "Bow": "Boon",
+      "Brawling": "Neutral",
+      "Reason": "Bane",
+      "Faith": "Neutral",
+      "Authority": "Neutral",
+      "Infantry": "Boon",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Loretta": {
+    "name": "Loretta",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 35,
+      "Str": 35,
+      "Mag": 35,
+      "Spd": 55,
+      "Dex": 40,
+      "Def": 30,
+      "Res": 40,
+      "Lck": 30,
+      "Cha": 30
+    },
+    "skills": {
+      "Sword": "Boon",
+      "Spear": "Boon",
+      "Axe": "Neutral",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Neutral",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Bane",
+      "Flying": "Boon"
+    }
+  },
+  "Seteth": {
+    "name": "Seteth",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 45,
+      "Str": 45,
+      "Mag": 30,
+      "Spd": 40,
+      "Dex": 45,
+      "Def": 40,
+      "Res": 35,
+      "Lck": 30,
+      "Cha": 50
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Boon",
+      "Axe": "Boon",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Neutral",
+      "Authority": "Boon",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Boon"
+    }
+  },
+  "Ninae": {
+    "name": "Ninae",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 45,
+      "Str": 45,
+      "Mag": 35,
+      "Spd": 35,
+      "Dex": 45,
+      "Def": 35,
+      "Res": 45,
+      "Lck": 50,
+      "Cha": 40
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Boon",
+      "Axe": "Neutral",
+      "Bow": "Bane",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Boon",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Boon",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Theodora": {
+    "name": "Theodora",
+    "starting_class": "Noble",
+    "growths": {
+      "HP": 70,
+      "Str": 50,
+      "Mag": 30,
+      "Spd": 40,
+      "Dex": 40,
+      "Def": 40,
+      "Res": 30,
+      "Lck": 30,
+      "Cha": 50
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Boon",
+      "Axe": "Neutral",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Bane",
+      "Faith": "Boon",
+      "Authority": "Boon",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Bonaventure": {
+    "name": "Bonaventure",
+    "starting_class": "Noble",
+    "growths": {
+      "HP": 35,
+      "Str": 35,
+      "Mag": 45,
+      "Spd": 40,
+      "Dex": 50,
+      "Def": 30,
+      "Res": 40,
+      "Lck": 35,
+      "Cha": 40
+    },
+    "skills": {
+      "Sword": "Boon",
+      "Spear": "Neutral",
+      "Axe": "Neutral",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Boon",
+      "Faith": "Boon",
+      "Authority": "Boon",
+      "Infantry": "Neutral",
+      "Riding": "Boon",
+      "Armor": "Bane",
+      "Flying": "Bane"
+    }
+  },
+  "Tobias": {
+    "name": "Tobias",
+    "starting_class": "Noble",
+    "growths": {
+      "HP": 55,
+      "Str": 60,
+      "Mag": 15,
+      "Spd": 25,
+      "Dex": 30,
+      "Def": 45,
+      "Res": 20,
+      "Lck": 40,
+      "Cha": 35
+    },
+    "skills": {
+      "Sword": "Bane",
+      "Spear": "Neutral",
+      "Axe": "Boon",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Neutral",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Boon",
+      "Armor": "Boon",
+      "Flying": "Neutral"
+    }
+  },
+  "Lilian": {
+    "name": "Lilian",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 35,
+      "Str": 35,
+      "Mag": 30,
+      "Spd": 40,
+      "Dex": 55,
+      "Def": 30,
+      "Res": 35,
+      "Lck": 50,
+      "Cha": 25
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Neutral",
+      "Axe": "Neutral",
+      "Bow": "Boon",
+      "Brawling": "Bane",
+      "Reason": "Neutral",
+      "Faith": "Neutral",
+      "Authority": "Neutral",
+      "Infantry": "Boon",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Lysander": {
+    "name": "Lysander",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 45,
+      "Str": 40,
+      "Mag": 25,
+      "Spd": 50,
+      "Dex": 35,
+      "Def": 40,
+      "Res": 25,
+      "Lck": 30,
+      "Cha": 30
+    },
+    "skills": {
+      "Sword": "Bane",
+      "Spear": "Boon",
+      "Axe": "Boon",
+      "Bow": "Neutral",
+      "Brawling": "Bane",
+      "Reason": "Neutral",
+      "Faith": "Neutral",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Boon",
+      "Armor": "Bane",
+      "Flying": "Boon"
+    }
+  },
+  "Talimun": {
+    "name": "Talimun",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 45,
+      "Str": 40,
+      "Mag": 45,
+      "Spd": 40,
+      "Dex": 45,
+      "Def": 35,
+      "Res": 40,
+      "Lck": 60,
+      "Cha": 50
+    },
+    "skills": {
+      "Sword": "Boon",
+      "Spear": "Neutral",
+      "Axe": "Neutral",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Boon",
+      "Faith": "Neutral",
+      "Authority": "Boon",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Bane",
+      "Flying": "Neutral"
+    }
+  },
+  "Ursula": {
+    "name": "Ursula",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 40,
+      "Str": 35,
+      "Mag": 35,
+      "Spd": 50,
+      "Dex": 50,
+      "Def": 35,
+      "Res": 30,
+      "Lck": 40,
+      "Cha": 45
+    },
+    "skills": {
+      "Sword": "Boon",
+      "Spear": "Neutral",
+      "Axe": "Neutral",
+      "Bow": "Boon",
+      "Brawling": "Boon",
+      "Reason": "Neutral",
+      "Faith": "Neutral",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Ludia": {
+    "name": "Ludia",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 40,
+      "Str": 35,
+      "Mag": 20,
+      "Spd": 55,
+      "Dex": 45,
+      "Def": 30,
+      "Res": 20,
+      "Lck": 30,
+      "Cha": 30
+    },
+    "skills": {
+      "Sword": "Boon",
+      "Spear": "Boon",
+      "Axe": "Bane",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Bane",
+      "Faith": "Neutral",
+      "Authority": "Neutral",
+      "Infantry": "Boon",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Simon": {
+    "name": "Simon",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 50,
+      "Str": 50,
+      "Mag": 20,
+      "Spd": 35,
+      "Dex": 40,
+      "Def": 40,
+      "Res": 25,
+      "Lck": 50,
+      "Cha": 35
+    },
+    "skills": {
+      "Sword": "Boon",
+      "Spear": "Neutral",
+      "Axe": "Boon",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Bane",
+      "Authority": "Neutral",
+      "Infantry": "Boon",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Fianna": {
+    "name": "Fianna",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 30,
+      "Str": 35,
+      "Mag": 55,
+      "Spd": 30,
+      "Dex": 40,
+      "Def": 20,
+      "Res": 45,
+      "Lck": 25,
+      "Cha": 40
+    },
+    "skills": {
+      "Sword": "Bane",
+      "Spear": "Neutral",
+      "Axe": "Neutral",
+      "Bow": "Neutral",
+      "Brawling": "Bane",
+      "Reason": "Boon",
+      "Faith": "Boon",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Boon",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Leda": {
+    "name": "Leda",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 40,
+      "Str": 35,
+      "Mag": 35,
+      "Spd": 65,
+      "Dex": 50,
+      "Def": 30,
+      "Res": 35,
+      "Lck": 25,
+      "Cha": 55
+    },
+    "skills": {
+      "Sword": "Boon",
+      "Spear": "Bane",
+      "Axe": "Neutral",
+      "Bow": "Boon",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Boon",
+      "Authority": "Neutral",
+      "Infantry": "Boon",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Buccar": {
+    "name": "Buccar",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 50,
+      "Str": 50,
+      "Mag": 20,
+      "Spd": 25,
+      "Dex": 40,
+      "Def": 45,
+      "Res": 20,
+      "Lck": 30,
+      "Cha": 35
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Boon",
+      "Axe": "Boon",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Bane",
+      "Faith": "Bane",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Boon",
+      "Armor": "Boon",
+      "Flying": "Neutral"
+    }
+  },
+  "Sirocco": {
+    "name": "Sirocco",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 40,
+      "Str": 40,
+      "Mag": 40,
+      "Spd": 45,
+      "Dex": 50,
+      "Def": 35,
+      "Res": 35,
+      "Lck": 50,
+      "Cha": 45
+    },
+    "skills": {
+      "Sword": "Boon",
+      "Spear": "Neutral",
+      "Axe": "Neutral",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Boon",
+      "Faith": "Boon",
+      "Authority": "Boon",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Bane",
+      "Flying": "Neutral"
+    }
+  },
+  "Olympia": {
+    "name": "Olympia",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 35,
+      "Str": 35,
+      "Mag": 50,
+      "Spd": 35,
+      "Dex": 35,
+      "Def": 30,
+      "Res": 40,
+      "Lck": 40,
+      "Cha": 40
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Bane",
+      "Axe": "Boon",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Boon",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Mu": {
+    "name": "Mu",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 50,
+      "Str": 50,
+      "Mag": 25,
+      "Spd": 50,
+      "Dex": 50,
+      "Def": 40,
+      "Res": 30,
+      "Lck": 30,
+      "Cha": 40
+    },
+    "skills": {
+      "Sword": "Boon",
+      "Spear": "Neutral",
+      "Axe": "Boon",
+      "Bow": "Neutral",
+      "Brawling": "Boon",
+      "Reason": "Neutral",
+      "Faith": "Boon",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Anatolia": {
+    "name": "Anatolia",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 40,
+      "Str": 35,
+      "Mag": 50,
+      "Spd": 50,
+      "Dex": 45,
+      "Def": 35,
+      "Res": 40,
+      "Lck": 40,
+      "Cha": 50
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Neutral",
+      "Axe": "Neutral",
+      "Bow": "Neutral",
+      "Brawling": "Boon",
+      "Reason": "Boon",
+      "Faith": "Neutral",
+      "Authority": "Neutral",
+      "Infantry": "Boon",
+      "Riding": "Neutral",
+      "Armor": "Bane",
+      "Flying": "Neutral"
+    }
+  },
+  "Sha Lan": {
+    "name": "Sha Lan",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 35,
+      "Str": 30,
+      "Mag": 45,
+      "Spd": 35,
+      "Dex": 50,
+      "Def": 30,
+      "Res": 45,
+      "Lck": 35,
+      "Cha": 40
+    },
+    "skills": {
+      "Sword": "Bane",
+      "Spear": "Boon",
+      "Axe": "Neutral",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Boon",
+      "Authority": "Boon",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Nezha": {
+    "name": "Nezha",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 45,
+      "Str": 45,
+      "Mag": 25,
+      "Spd": 45,
+      "Dex": 50,
+      "Def": 35,
+      "Res": 25,
+      "Lck": 30,
+      "Cha": 25
+    },
+    "skills": {
+      "Sword": "Boon",
+      "Spear": "Bane",
+      "Axe": "Neutral",
+      "Bow": "Neutral",
+      "Brawling": "Boon",
+      "Reason": "Neutral",
+      "Faith": "Neutral",
+      "Authority": "Neutral",
+      "Infantry": "Boon",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Dadao": {
+    "name": "Dadao",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 50,
+      "Str": 55,
+      "Mag": 20,
+      "Spd": 30,
+      "Dex": 35,
+      "Def": 45,
+      "Res": 20,
+      "Lck": 25,
+      "Cha": 30
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Bane",
+      "Axe": "Boon",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Bane",
+      "Faith": "Bane",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Boon",
+      "Flying": "Neutral"
+    }
+  },
+  "Halvin": {
+    "name": "Halvin",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 35,
+      "Str": 35,
+      "Mag": 30,
+      "Spd": 45,
+      "Dex": 60,
+      "Def": 30,
+      "Res": 25,
+      "Lck": 40,
+      "Cha": 35
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Neutral",
+      "Axe": "Bane",
+      "Bow": "Boon",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Neutral",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Boon",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Hong Hua": {
+    "name": "Hong Hua",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 40,
+      "Str": 30,
+      "Mag": 45,
+      "Spd": 45,
+      "Dex": 45,
+      "Def": 30,
+      "Res": 45,
+      "Lck": 30,
+      "Cha": 40
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Neutral",
+      "Axe": "Bane",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Boon",
+      "Faith": "Boon",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Bane",
+      "Flying": "Neutral"
+    }
+  },
+  "Troy": {
+    "name": "Troy",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 40,
+      "Str": 45,
+      "Mag": 45,
+      "Spd": 50,
+      "Dex": 40,
+      "Def": 30,
+      "Res": 30,
+      "Lck": 30,
+      "Cha": 30
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Neutral",
+      "Axe": "Neutral",
+      "Bow": "Neutral",
+      "Brawling": "Boon",
+      "Reason": "Boon",
+      "Faith": "Boon",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Guzran": {
+    "name": "Guzran",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 45,
+      "Str": 45,
+      "Mag": 20,
+      "Spd": 50,
+      "Dex": 45,
+      "Def": 35,
+      "Res": 20,
+      "Lck": 45,
+      "Cha": 30
+    },
+    "skills": {
+      "Sword": "Boon",
+      "Spear": "Neutral",
+      "Axe": "Neutral",
+      "Bow": "Neutral",
+      "Brawling": "Boon",
+      "Reason": "Bane",
+      "Faith": "Bane",
+      "Authority": "Neutral",
+      "Infantry": "Boon",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Yang Jie": {
+    "name": "Yang Jie",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 50,
+      "Str": 30,
+      "Mag": 40,
+      "Spd": 35,
+      "Dex": 35,
+      "Def": 30,
+      "Res": 40,
+      "Lck": 40,
+      "Cha": 25
+    },
+    "skills": {
+      "Sword": "Bane",
+      "Spear": "Neutral",
+      "Axe": "Boon",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Boon",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Bane",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Io": {
+    "name": "Io",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 45,
+      "Str": 40,
+      "Mag": 25,
+      "Spd": 35,
+      "Dex": 45,
+      "Def": 40,
+      "Res": 25,
+      "Lck": 35,
+      "Cha": 35
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Boon",
+      "Axe": "Boon",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Bane",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Boon",
+      "Armor": "Neutral",
+      "Flying": "Bane"
+    }
+  },
+  "Peppe": {
+    "name": "Peppe",
+    "starting_class": "Noble",
+    "growths": {
+      "HP": 30,
+      "Str": 30,
+      "Mag": 25,
+      "Spd": 60,
+      "Dex": 45,
+      "Def": 30,
+      "Res": 30,
+      "Lck": 45,
+      "Cha": 30
+    },
+    "skills": {
+      "Sword": "Boon",
+      "Spear": "Neutral",
+      "Axe": "Neutral",
+      "Bow": "Boon",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Bane",
+      "Authority": "Neutral",
+      "Infantry": "Boon",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Noctula": {
+    "name": "Noctula",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 50,
+      "Str": 45,
+      "Mag": 20,
+      "Spd": 45,
+      "Dex": 40,
+      "Def": 40,
+      "Res": 20,
+      "Lck": 35,
+      "Cha": 30
+    },
+    "skills": {
+      "Sword": "Bane",
+      "Spear": "Neutral",
+      "Axe": "Boon",
+      "Bow": "Neutral",
+      "Brawling": "Boon",
+      "Reason": "Bane",
+      "Faith": "Bane",
+      "Authority": "Neutral",
+      "Infantry": "Boon",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Sofia": {
+    "name": "Sofia",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 35,
+      "Str": 30,
+      "Mag": 45,
+      "Spd": 30,
+      "Dex": 40,
+      "Def": 25,
+      "Res": 40,
+      "Lck": 30,
+      "Cha": 40
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Neutral",
+      "Axe": "Bane",
+      "Bow": "Boon",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Boon",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Catania": {
+    "name": "Catania",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 35,
+      "Str": 35,
+      "Mag": 35,
+      "Spd": 55,
+      "Dex": 50,
+      "Def": 30,
+      "Res": 35,
+      "Lck": 40,
+      "Cha": 45
+    },
+    "skills": {
+      "Sword": "Boon",
+      "Spear": "Boon",
+      "Axe": "Neutral",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Neutral",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Bane",
+      "Flying": "Boon"
+    }
+  },
+  "Nydine": {
+    "name": "Nydine",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 45,
+      "Str": 40,
+      "Mag": 30,
+      "Spd": 45,
+      "Dex": 40,
+      "Def": 30,
+      "Res": 25,
+      "Lck": 35,
+      "Cha": 35
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Neutral",
+      "Axe": "Boon",
+      "Bow": "Neutral",
+      "Brawling": "Bane",
+      "Reason": "Boon",
+      "Faith": "Neutral",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Boon",
+      "Armor": "Bane",
+      "Flying": "Boon"
+    }
+  },
+  "Zarcone": {
+    "name": "Zarcone",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 40,
+      "Str": 30,
+      "Mag": 20,
+      "Spd": 35,
+      "Dex": 60,
+      "Def": 30,
+      "Res": 25,
+      "Lck": 30,
+      "Cha": 15
+    },
+    "skills": {
+      "Sword": "Boon",
+      "Spear": "Neutral",
+      "Axe": "Boon",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Bane",
+      "Faith": "Bane",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Majide": {
+    "name": "Majide",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 65,
+      "Str": 50,
+      "Mag": 15,
+      "Spd": 20,
+      "Dex": 30,
+      "Def": 40,
+      "Res": 10,
+      "Lck": 25,
+      "Cha": 5
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Neutral",
+      "Axe": "Boon",
+      "Bow": "Neutral",
+      "Brawling": "Boon",
+      "Reason": "Bane",
+      "Faith": "Bane",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Bane"
+    }
+  },
+  "Benditz": {
+    "name": "Benditz",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 50,
+      "Str": 35,
+      "Mag": 20,
+      "Spd": 35,
+      "Dex": 50,
+      "Def": 35,
+      "Res": 25,
+      "Lck": 30,
+      "Cha": 35
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Neutral",
+      "Axe": "Neutral",
+      "Bow": "Boon",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Neutral",
+      "Authority": "Boon",
+      "Infantry": "Bane",
+      "Riding": "Boon",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Inyoni": {
+    "name": "Inyoni",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 40,
+      "Str": 50,
+      "Mag": 20,
+      "Spd": 35,
+      "Dex": 40,
+      "Def": 40,
+      "Res": 30,
+      "Lck": 40,
+      "Cha": 30
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Neutral",
+      "Axe": "Boon",
+      "Bow": "Boon",
+      "Brawling": "Neutral",
+      "Reason": "Bane",
+      "Faith": "Bane",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Jasmine": {
+    "name": "Jasmine",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 50,
+      "Str": 40,
+      "Mag": 20,
+      "Spd": 30,
+      "Dex": 45,
+      "Def": 45,
+      "Res": 25,
+      "Lck": 40,
+      "Cha": 45
+    },
+    "skills": {
+      "Sword": "Bane",
+      "Spear": "Boon",
+      "Axe": "Boon",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Neutral",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Boon",
+      "Flying": "Bane"
+    }
+  },
+  "Alexandra": {
+    "name": "Alexandra",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 30,
+      "Str": 35,
+      "Mag": 35,
+      "Spd": 55,
+      "Dex": 45,
+      "Def": 30,
+      "Res": 40,
+      "Lck": 50,
+      "Cha": 50
+    },
+    "skills": {
+      "Sword": "Boon",
+      "Spear": "Boon",
+      "Axe": "Bane",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Bane",
+      "Faith": "Neutral",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Boon"
+    }
+  },
+  "Nuzzuo": {
+    "name": "Nuzzuo",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 50,
+      "Str": 50,
+      "Mag": 15,
+      "Spd": 55,
+      "Dex": 45,
+      "Def": 20,
+      "Res": 15,
+      "Lck": 25,
+      "Cha": 35
+    },
+    "skills": {
+      "Sword": "Boon",
+      "Spear": "Neutral",
+      "Axe": "Neutral",
+      "Bow": "Boon",
+      "Brawling": "Boon",
+      "Reason": "Neutral",
+      "Faith": "Neutral",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Centurio": {
+    "name": "Centurio",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 45,
+      "Str": 45,
+      "Mag": 25,
+      "Spd": 40,
+      "Dex": 50,
+      "Def": 50,
+      "Res": 30,
+      "Lck": 30,
+      "Cha": 30
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Boon",
+      "Axe": "Boon",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Neutral",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Boon",
+      "Flying": "Neutral"
+    }
+  },
+  "Aswan": {
+    "name": "Aswan",
+    "starting_class": "Noble",
+    "growths": {
+      "HP": 40,
+      "Str": 35,
+      "Mag": 10,
+      "Spd": 40,
+      "Dex": 50,
+      "Def": 30,
+      "Res": 15,
+      "Lck": 30,
+      "Cha": 20
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Neutral",
+      "Axe": "Neutral",
+      "Bow": "Boon",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Neutral",
+      "Authority": "Boon",
+      "Infantry": "Boon",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Nathan": {
+    "name": "Nathan",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 55,
+      "Str": 60,
+      "Mag": 15,
+      "Spd": 25,
+      "Dex": 60,
+      "Def": 45,
+      "Res": 15,
+      "Lck": 25,
+      "Cha": 30
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Boon",
+      "Axe": "Neutral",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Neutral",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Boon",
+      "Armor": "Boon",
+      "Flying": "Neutral"
+    }
+  },
+  "Creek": {
+    "name": "Creek",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 45,
+      "Str": 50,
+      "Mag": 15,
+      "Spd": 60,
+      "Dex": 50,
+      "Def": 35,
+      "Res": 20,
+      "Lck": 30,
+      "Cha": 35
+    },
+    "skills": {
+      "Sword": "Boon",
+      "Spear": "Neutral",
+      "Axe": "Neutral",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Neutral",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Boon",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Kiroc": {
+    "name": "Kiroc",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 55,
+      "Str": 40,
+      "Mag": 15,
+      "Spd": 55,
+      "Dex": 50,
+      "Def": 30,
+      "Res": 15,
+      "Lck": 30,
+      "Cha": 25
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Neutral",
+      "Axe": "Neutral",
+      "Bow": "Boon",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Neutral",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Klapka": {
+    "name": "Klapka",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 40,
+      "Str": 40,
+      "Mag": 10,
+      "Spd": 25,
+      "Dex": 45,
+      "Def": 50,
+      "Res": 15,
+      "Lck": 25,
+      "Cha": 35
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Boon",
+      "Axe": "Neutral",
+      "Bow": "Neutral",
+      "Brawling": "Neutral",
+      "Reason": "Neutral",
+      "Faith": "Boon",
+      "Authority": "Neutral",
+      "Infantry": "Boon",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  },
+  "Tahonia": {
+    "name": "Tahonia",
+    "starting_class": "Commoner",
+    "growths": {
+      "HP": 65,
+      "Str": 50,
+      "Mag": 5,
+      "Spd": 20,
+      "Dex": 40,
+      "Def": 45,
+      "Res": 35,
+      "Lck": 20,
+      "Cha": 40
+    },
+    "skills": {
+      "Sword": "Neutral",
+      "Spear": "Neutral",
+      "Axe": "Neutral",
+      "Bow": "Neutral",
+      "Brawling": "Boon",
+      "Reason": "Neutral",
+      "Faith": "Neutral",
+      "Authority": "Neutral",
+      "Infantry": "Neutral",
+      "Riding": "Neutral",
+      "Armor": "Neutral",
+      "Flying": "Neutral"
+    }
+  }
+}
