@@ -6,8 +6,8 @@ from modules.bot import Bot
 from modules.core import red_embed, closeness
 
 
-TIER_NAMES = ["Base", "Beginner", "Specialty", "Advanced", "Master", "Divine"]
-TIER_LEVELS = [1, 10, 20, 35, 45, 45]
+TIER_LEVELS = {"Base": 1, "Beginner": 10, "Specialty": 20, "Advanced": 35, "Master": 45, "Divine": 45}
+CATEGORIES = ["Base", "Gladiators", "Hunters", "Soldiers", "Fliers", "Mages", "Elephants", "Divine"]
 
 
 class Stats:
@@ -26,10 +26,11 @@ class Stats:
 
 
 class Class:
-    def __init__(self, name: str, tier: int, reqs: dict, growths: Stats, stat_bonuses: Stats, skills: list[str],
-                 skill_growths: dict[str, int], mount: str | None):
+    def __init__(self, name: str, tier: int, category: str, reqs: dict, growths: Stats, stat_bonuses: Stats,
+                 skills: list[str], skill_growths: dict[str, int], mount: str | None):
         self.name = name
         self.tier = tier
+        self.category = category
         self.requirements = reqs
         self.growths = growths
         self.stat_bonuses = stat_bonuses
@@ -42,6 +43,7 @@ class Class:
         return Class(
             name=js["name"],
             tier=js["tier"],
+            category=js["category"],
             reqs=js["requirements"],
             growths=Stats(js["growths"]),
             stat_bonuses=Stats(js["stat_bonuses"]),
@@ -49,6 +51,9 @@ class Class:
             skill_growths=js["skill_growths"],
             mount=js["mount"]
         )
+
+    def short_desc(self, bot: Bot):
+        return f"**{self.name}**\u2002{' '.join(str(bot.app_emojis[g.lower() + '_neutral']) for g in self.skills)}"
 
     def embed(self, bot: Bot):
         reqs = ""
@@ -59,9 +64,10 @@ class Class:
         if self.requirements.get("primary"):
             reqs += f"Primary: **{format_reqs(self.requirements['primary'])}**"
         if self.requirements.get("secondary"):
-            reqs += f"Secondary: **{format_reqs(self.requirements['secondary'])}**"
+            reqs += f"\nSecondary: **{format_reqs(self.requirements['secondary'])}**"
+
         fields = {
-            "Tier": f"{TIER_NAMES[self.tier]} (Lv {TIER_LEVELS[self.tier]})",
+            "Tier": f"{self.tier} (Lv {TIER_LEVELS[self.tier]})",
             "Requirements": reqs.strip("\n"),
             "Growths": self.growths.display(include_percent=True),
             "Bonuses": self.stat_bonuses.display(),
@@ -141,10 +147,27 @@ async def class_autocomplete(inter: discord.Interaction, current: str) -> list[d
     return [discord.app_commands.Choice(name=g, value=g) for g in matches][:25]
 
 
+async def tier_autocomplete(inter: discord.Interaction, current: str) -> list[discord.app_commands.Choice[str]]:
+    matches = sorted([g for g in TIER_LEVELS if closeness(g, current)], key=lambda c: -closeness(c, current))
+    return [discord.app_commands.Choice(name=g, value=g) for g in matches][:25]
+
+
 class UnitsCog(commands.Cog):
     def __init__(self, bot: Bot):
         super().__init__()
         self.bot = bot
+
+    def tier_desc(self, tier: str):
+        ret = ""
+        current_category = ""
+        for c in CLASSES.values():
+            if c.tier == tier:
+                if c.category != current_category:
+                    current_category = c.category
+                    ret += "\n-"
+                ret += "\n" + c.short_desc(self.bot)
+
+        return ret.strip("\n-")
 
     @discord.app_commands.command(
         name="unit",
@@ -172,9 +195,20 @@ class UnitsCog(commands.Cog):
     @discord.app_commands.rename(class_name="class")
     async def class_command(self, i: discord.Interaction, class_name: str):
         if not (cl := CLASSES.get(class_name)):
-            return await i.response.send_message("⚠️ Class not found", ephemeral=True)
+            return await i.response.send_message("⚠️ Class not found.", ephemeral=True)
 
         return await i.response.send_message(embed=cl.embed(self.bot))
+
+    @discord.app_commands.command(
+        name="classlist",
+        description="Lists all available classes."
+    )
+    @discord.app_commands.autocomplete(tier=tier_autocomplete)
+    async def class_list_command(self, i: discord.Interaction, tier: str):
+        if tier not in TIER_LEVELS:
+            return await i.response.send_message("⚠️ Please enter a valid tier.", ephemeral=True)
+
+        return await i.response.send_message(embed=red_embed(title=f"{tier} Classes", desc=self.tier_desc(tier)))
 
 
 async def setup(bot: Bot):

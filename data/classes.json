@@ -1,7 +1,8 @@
 {
   "Noble": {
     "name": "Noble",
-    "tier": 0,
+    "tier": "Base",
+    "category": "Base",
     "requirements": {},
     "growths": {
       "HP": 0,
@@ -54,7 +55,8 @@
   },
   "Commoner": {
     "name": "Commoner",
-    "tier": 0,
+    "tier": "Base",
+    "category": "Base",
     "requirements": {},
     "growths": {
       "HP": 0,
@@ -107,7 +109,8 @@
   },
   "Gladiator": {
     "name": "Gladiator",
-    "tier": 1,
+    "tier": "Beginner",
+    "category": "Gladiators",
     "requirements": {
       "secondary": {
         "Sword": "D",
@@ -162,7 +165,8 @@
   },
   "Hunter": {
     "name": "Hunter",
-    "tier": 1,
+    "tier": "Beginner",
+    "category": "Hunters",
     "requirements": {
       "secondary": {
         "Bow": "D",
@@ -215,7 +219,8 @@
   },
   "Soldier": {
     "name": "Soldier",
-    "tier": 1,
+    "tier": "Beginner",
+    "category": "Soldiers",
     "requirements": {
       "secondary": {
         "Spear": "D",
@@ -270,7 +275,8 @@
   },
   "Ornius Rider": {
     "name": "Ornius Rider",
-    "tier": 1,
+    "tier": "Beginner",
+    "category": "Fliers",
     "requirements": {
       "primary": {
         "Riding": "E+"
@@ -328,7 +334,8 @@
   },
   "Diviner": {
     "name": "Diviner",
-    "tier": 1,
+    "tier": "Beginner",
+    "category": "Mages",
     "requirements": {
       "secondary": {
         "Reason": "D",
@@ -384,7 +391,8 @@
   },
   "Myrmidon": {
     "name": "Myrmidon",
-    "tier": 2,
+    "tier": "Specialty",
+    "category": "Gladiators",
     "requirements": {
       "primary": {
         "Sword": "C"
@@ -436,7 +444,8 @@
   },
   "Brigand": {
     "name": "Brigand",
-    "tier": 2,
+    "tier": "Specialty",
+    "category": "Gladiators",
     "requirements": {
       "secondary": {
         "Sword": "C",
@@ -490,7 +499,8 @@
   },
   "Pugilist": {
     "name": "Pugilist",
-    "tier": 2,
+    "tier": "Specialty",
+    "category": "Gladiators",
     "requirements": {
       "primary": {
         "Brawling": "C"
@@ -541,7 +551,8 @@
   },
   "Archer": {
     "name": "Archer",
-    "tier": 2,
+    "tier": "Specialty",
+    "category": "Hunters",
     "requirements": {
       "primary": {
         "Bow": "C"
@@ -592,7 +603,8 @@
   },
   "Rogue": {
     "name": "Rogue",
-    "tier": 2,
+    "tier": "Specialty",
+    "category": "Hunters",
     "requirements": {
       "secondary": {
         "Sword": "C",
@@ -645,7 +657,8 @@
   },
   "Armored Knight": {
     "name": "Armored Knight",
-    "tier": 2,
+    "tier": "Specialty",
+    "category": "Soldiers",
     "requirements": {
       "primary": {
         "Armor": "E+"
@@ -703,7 +716,8 @@
   },
   "Light Cavalry": {
     "name": "Light Cavalry",
-    "tier": 2,
+    "tier": "Specialty",
+    "category": "Soldiers",
     "requirements": {
       "primary": {
         "Riding": "D"
@@ -760,7 +774,8 @@
   },
   "Charioteer": {
     "name": "Charioteer",
-    "tier": 2,
+    "tier": "Specialty",
+    "category": "Soldiers",
     "requirements": {
       "primary": {
         "Bow": "C",
@@ -792,7 +807,7 @@
     },
     "skills": [
       "Bow",
-      "Riding (Infantry when dismounted)"
+      "Riding"
     ],
     "skill_growths": {
       "Sword": 0,
@@ -812,7 +827,8 @@
   },
   "Armored Ornius Rider": {
     "name": "Armored Ornius Rider",
-    "tier": 2,
+    "tier": "Specialty",
+    "category": "Fliers",
     "requirements": {
       "primary": {
         "Riding": "D"
@@ -843,7 +859,7 @@
       "Res": 0,
       "Lck": 0,
       "Cha": 0,
-      "Mov": 7
+      "Mov": 6
     },
     "skills": [
       "Sword",
@@ -870,7 +886,8 @@
   },
   "Wing Soldier": {
     "name": "Wing Soldier",
-    "tier": 2,
+    "tier": "Specialty",
+    "category": "Fliers",
     "requirements": {
       "primary": {
         "Flying": "D"
@@ -926,7 +943,8 @@
   },
   "Shaman": {
     "name": "Shaman",
-    "tier": 2,
+    "tier": "Specialty",
+    "category": "Mages",
     "requirements": {
       "primary": {
         "Reason": "C"
@@ -980,7 +998,8 @@
   },
   "Priest": {
     "name": "Priest",
-    "tier": 2,
+    "tier": "Specialty",
+    "category": "Mages",
     "requirements": {
       "primary": {
         "Faith": "C"
@@ -1034,7 +1053,8 @@
   },
   "Shido": {
     "name": "Shido",
-    "tier": 3,
+    "tier": "Advanced",
+    "category": "Gladiators",
     "requirements": {
       "primary": {
         "Sword": "B"
@@ -1086,7 +1106,8 @@
   },
   "Dancer": {
     "name": "Dancer",
-    "tier": 3,
+    "tier": "Advanced",
+    "category": "Gladiators",
     "requirements": {
       "secondary": {
         "Sword": "B",
@@ -1139,7 +1160,8 @@
   },
   "Warrior": {
     "name": "Warrior",
-    "tier": 3,
+    "tier": "Advanced",
+    "category": "Gladiators",
     "requirements": {
       "secondary": {
         "Sword": "B",
@@ -1194,7 +1216,8 @@
   },
   "Blacksmith": {
     "name": "Blacksmith",
-    "tier": 3,
+    "tier": "Advanced",
+    "category": "Gladiators",
     "requirements": {
       "primary": {
         "Axe": "C",
@@ -1247,7 +1270,8 @@
   },
   "Sniper": {
     "name": "Sniper",
-    "tier": 3,
+    "tier": "Advanced",
+    "category": "Hunters",
     "requirements": {
       "primary": {
         "Bow": "B"
@@ -1298,7 +1322,8 @@
   },
   "Forest Knight": {
     "name": "Forest Knight",
-    "tier": 3,
+    "tier": "Advanced",
+    "category": "Hunters",
     "requirements": {
       "primary": {
         "Bow": "B",
@@ -1326,7 +1351,7 @@
       "Res": 0,
       "Lck": 0,
       "Cha": 0,
-      "Mov": 7
+      "Mov": 6
     },
     "skills": [
       "Sword",
@@ -1351,7 +1376,8 @@
   },
   "Ranger": {
     "name": "Ranger",
-    "tier": 3,
+    "tier": "Advanced",
+    "category": "Hunters",
     "requirements": {
       "secondary": {
         "Bow": "B",
@@ -1404,7 +1430,8 @@
   },
   "Guardian": {
     "name": "Guardian",
-    "tier": 3,
+    "tier": "Advanced",
+    "category": "Soldiers",
     "requirements": {
       "primary": {
         "Spear": "B"
@@ -1456,7 +1483,8 @@
   },
   "Dreadnought": {
     "name": "Dreadnought",
-    "tier": 3,
+    "tier": "Advanced",
+    "category": "Soldiers",
     "requirements": {
       "primary": {
         "Armor": "D"
@@ -1513,7 +1541,8 @@
   },
   "Bardinger": {
     "name": "Bardinger",
-    "tier": 3,
+    "tier": "Advanced",
+    "category": "Soldiers",
     "requirements": {
       "primary": {
         "Riding": "C"
@@ -1570,7 +1599,8 @@
   },
   "Cataphract": {
     "name": "Cataphract",
-    "tier": 3,
+    "tier": "Advanced",
+    "category": "Soldiers",
     "requirements": {
       "primary": {
         "Armor": "E+",
@@ -1629,7 +1659,8 @@
   },
   "Caladrius": {
     "name": "Caladrius",
-    "tier": 3,
+    "tier": "Advanced",
+    "category": "Fliers",
     "requirements": {
       "primary": {
         "Reason": "B",
@@ -1685,7 +1716,8 @@
   },
   "Dragoon": {
     "name": "Dragoon",
-    "tier": 3,
+    "tier": "Advanced",
+    "category": "Fliers",
     "requirements": {
       "primary": {
         "Flying": "C"
@@ -1716,7 +1748,7 @@
       "Res": 0,
       "Lck": 0,
       "Cha": 0,
-      "Mov": 7
+      "Mov": 6
     },
     "skills": [
       "Sword",
@@ -1742,7 +1774,8 @@
   },
   "Ovate": {
     "name": "Ovate",
-    "tier": 3,
+    "tier": "Advanced",
+    "category": "Mages",
     "requirements": {
       "primary": {
         "Reason": "B"
@@ -1796,7 +1829,8 @@
   },
   "Bishop": {
     "name": "Bishop",
-    "tier": 3,
+    "tier": "Advanced",
+    "category": "Mages",
     "requirements": {
       "primary": {
         "Faith": "B"
@@ -1850,7 +1884,8 @@
   },
   "Troubadour": {
     "name": "Troubadour",
-    "tier": 3,
+    "tier": "Advanced",
+    "category": "Mages",
     "requirements": {
       "primary": {
         "Riding": "D"
@@ -1906,7 +1941,8 @@
   },
   "Elephant Rider": {
     "name": "Elephant Rider",
-    "tier": 3,
+    "tier": "Advanced",
+    "category": "Elephants",
     "requirements": {
       "primary": {
         "Riding": "C"
@@ -1956,7 +1992,8 @@
   },
   "Swordmaster": {
     "name": "Swordmaster",
-    "tier": 4,
+    "tier": "Master",
+    "category": "Gladiators",
     "requirements": {
       "primary": {
         "Sword": "A"
@@ -2008,7 +2045,8 @@
   },
   "High Savant": {
     "name": "High Savant",
-    "tier": 4,
+    "tier": "Master",
+    "category": "Gladiators",
     "requirements": {
       "primary": {
         "Sword": "B",
@@ -2062,7 +2100,8 @@
   },
   "Battlemaster": {
     "name": "Battlemaster",
-    "tier": 4,
+    "tier": "Master",
+    "category": "Gladiators",
     "requirements": {
       "secondary": {
         "Sword": "A",
@@ -2117,7 +2156,8 @@
   },
   "War Monk": {
     "name": "War Monk",
-    "tier": 4,
+    "tier": "Master",
+    "category": "Gladiators",
     "requirements": {
       "primary": {
         "Brawling": "B",
@@ -2170,7 +2210,8 @@
   },
   "Bow Adept": {
     "name": "Bow Adept",
-    "tier": 4,
+    "tier": "Master",
+    "category": "Hunters",
     "requirements": {
       "primary": {
         "Bow": "A"
@@ -2221,7 +2262,8 @@
   },
   "Bow Knight": {
     "name": "Bow Knight",
-    "tier": 4,
+    "tier": "Master",
+    "category": "Hunters",
     "requirements": {
       "primary": {
         "Bow": "A",
@@ -2274,7 +2316,8 @@
   },
   "Shadow Seeker": {
     "name": "Shadow Seeker",
-    "tier": 4,
+    "tier": "Master",
+    "category": "Hunters",
     "requirements": {
       "secondary": {
         "Bow": "A",
@@ -2327,7 +2370,8 @@
   },
   "Sentinel": {
     "name": "Sentinel",
-    "tier": 4,
+    "tier": "Master",
+    "category": "Soldiers",
     "requirements": {
       "primary": {
         "Spear": "A"
@@ -2379,7 +2423,8 @@
   },
   "Castle Knight": {
     "name": "Castle Knight",
-    "tier": 4,
+    "tier": "Master",
+    "category": "Soldiers",
     "requirements": {
       "primary": {
         "Armor": "C"
@@ -2436,7 +2481,8 @@
   },
   "Orichaldia": {
     "name": "Orichaldia",
-    "tier": 4,
+    "tier": "Master",
+    "category": "Soldiers",
     "requirements": {
       "primary": {
         "Riding": "B"
@@ -2493,7 +2539,8 @@
   },
   "Great Knight": {
     "name": "Great Knight",
-    "tier": 4,
+    "tier": "Master",
+    "category": "Soldiers",
     "requirements": {
       "primary": {
         "Armor": "D",
@@ -2552,7 +2599,8 @@
   },
   "Celestial Trooper": {
     "name": "Celestial Trooper",
-    "tier": 4,
+    "tier": "Master",
+    "category": "Fliers",
     "requirements": {
       "primary": {
         "Flying": "C"
@@ -2608,7 +2656,8 @@
   },
   "Bau Lord": {
     "name": "Bau Lord",
-    "tier": 4,
+    "tier": "Master",
+    "category": "Fliers",
     "requirements": {
       "primary": {
         "Flying": "C"
@@ -2665,7 +2714,8 @@
   },
   "Druid": {
     "name": "Druid",
-    "tier": 4,
+    "tier": "Master",
+    "category": "Mages",
     "requirements": {
       "primary": {
         "Reason": "A"
@@ -2718,7 +2768,8 @@
   },
   "Wiseman": {
     "name": "Wiseman",
-    "tier": 4,
+    "tier": "Master",
+    "category": "Mages",
     "requirements": {
       "primary": {
         "Faith": "A"
@@ -2771,7 +2822,8 @@
   },
   "Valkyrium": {
     "name": "Valkyrium",
-    "tier": 4,
+    "tier": "Master",
+    "category": "Mages",
     "requirements": {
       "primary": {
         "Riding": "D"
@@ -2827,7 +2879,8 @@
   },
   "The Blade": {
     "name": "The Blade",
-    "tier": 5,
+    "tier": "Divine",
+    "category": "Divine",
     "requirements": {
       "primary": {
         "Sword": "S"
@@ -2879,7 +2932,8 @@
   },
   "The Apsara": {
     "name": "The Apsara",
-    "tier": 5,
+    "tier": "Divine",
+    "category": "Divine",
     "requirements": {
       "primary": {
         "Sword": "A",
@@ -2932,7 +2986,8 @@
   },
   "The Eternal": {
     "name": "The Eternal",
-    "tier": 5,
+    "tier": "Divine",
+    "category": "Divine",
     "requirements": {
       "secondary": {
         "Sword": "S",
@@ -2987,7 +3042,8 @@
   },
   "The Godhand": {
     "name": "The Godhand",
-    "tier": 5,
+    "tier": "Divine",
+    "category": "Divine",
     "requirements": {
       "primary": {
         "Brawling": "S",
@@ -3040,7 +3096,8 @@
   },
   "The Calamity": {
     "name": "The Calamity",
-    "tier": 5,
+    "tier": "Divine",
+    "category": "Divine",
     "requirements": {
       "secondary": {
         "Sword": "S",
@@ -3093,7 +3150,8 @@
   },
   "The Trident": {
     "name": "The Trident",
-    "tier": 5,
+    "tier": "Divine",
+    "category": "Divine",
     "requirements": {
       "primary": {
         "Spear": "S"
@@ -3145,7 +3203,8 @@
   },
   "The Cavalier": {
     "name": "The Cavalier",
-    "tier": 5,
+    "tier": "Divine",
+    "category": "Divine",
     "requirements": {
       "primary": {
         "Riding": "A"
@@ -3203,7 +3262,8 @@
   },
   "The Avatar": {
     "name": "The Avatar",
-    "tier": 5,
+    "tier": "Divine",
+    "category": "Divine",
     "requirements": {
       "secondary": {
         "Reason": "S",
