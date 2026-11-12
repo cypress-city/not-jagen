@@ -1,0 +1,1595 @@
+{
+  "Accelerate": {
+    "name": "Accelerate",
+    "description": "After defeating a foe, grants Spd+1 until the end of the map. (Max +10)",
+    "criteria": {
+      "type": "personal",
+      "character": "Lysander",
+      "level": 20
+    }
+  },
+  "Accelerate+": {
+    "name": "Accelerate+",
+    "description": "After defeating a foe, grants Spd+2 until the end of the map. (Max +10)",
+    "criteria": {
+      "type": "personal",
+      "character": "Lysander",
+      "level": 35
+    }
+  },
+  "Adaptability": {
+    "name": "Adaptability",
+    "description": "After combat, grants Hit+2 until the end of the map. (Max +30)",
+    "criteria": {
+      "type": "personal",
+      "character": "Halvin",
+      "level": "innate"
+    }
+  },
+  "Additional Intel": {
+    "name": "Additional Intel",
+    "description": "Grants Hit+10 to adjacent allies during their combats. Trigger % = 30.",
+    "criteria": {
+      "type": "personal",
+      "character": "Bonaventure",
+      "level": 20
+    }
+  },
+  "Additional Intel+": {
+    "name": "Additional Intel+",
+    "description": "Grants Hit+20 to adjacent allies during their combats. Trigger % = 30.",
+    "criteria": {
+      "type": "personal",
+      "character": "Bonaventure",
+      "level": 35
+    }
+  },
+  "All-Out Attack": {
+    "name": "All-Out Attack",
+    "description": "Multiplies damage by 1.3 when attacking with a combat art. Trigger % = 30.",
+    "criteria": {
+      "type": "personal",
+      "character": "Tobias",
+      "level": 20
+    }
+  },
+  "All-Out Attack+": {
+    "name": "All-Out Attack+",
+    "description": "Multiplies damage by 1.5 when attacking with a combat art. Trigger % = 30.",
+    "criteria": {
+      "type": "personal",
+      "character": "Tobias",
+      "level": 35
+    }
+  },
+  "Amplify Magic": {
+    "name": "Amplify Magic",
+    "description": "After combat, grants Atk+4 through unit's next combat. Trigger % = Mag \u00f7 2.",
+    "criteria": {
+      "type": "personal",
+      "character": "Hong Hua",
+      "level": 50
+    }
+  },
+  "Amplify Magic+": {
+    "name": "Amplify Magic+",
+    "description": "After combat, grants Atk+7 through unit's next combat. Trigger % = Mag \u00f7 2.",
+    "criteria": {
+      "type": "personal",
+      "character": "Hong Hua",
+      "level": 60
+    }
+  },
+  "Ardent Nosferatu": {
+    "name": "Ardent Nosferatu",
+    "description": "When using Nosferatu, grants Atk+3, Crit+5 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Olympia",
+      "level": 20
+    }
+  },
+  "Ardent Nosferatu+": {
+    "name": "Ardent Nosferatu+",
+    "description": "When using Nosferatu, grants Atk+5, Crit+10 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Olympia",
+      "level": 35
+    }
+  },
+  "At a Gallop": {
+    "name": "At a Gallop",
+    "description": "[Cavalry] Applies -1 to movement cost for terrain (cannot be reduced below 1)",
+    "criteria": {
+      "type": "personal",
+      "character": "Nydine",
+      "level": 20
+    }
+  },
+  "At a Gallop+": {
+    "name": "At a Gallop+",
+    "description": "[Cavalry] Applies -2 to movement cost for terrain (cannot be reduced below 1)",
+    "criteria": {
+      "type": "personal",
+      "character": "Nydine",
+      "level": 35
+    }
+  },
+  "Attuned": {
+    "name": "Attuned",
+    "description": "When Warrior's Clarity triggers, grants Avo+10 until unit's next phase. Trigger % = 10.",
+    "criteria": {
+      "type": "personal",
+      "character": "Noctula",
+      "level": 20
+    }
+  },
+  "Attuned+": {
+    "name": "Attuned+",
+    "description": "When Warrior's Clarity triggers, grants Avo+10 until unit's next phase. Trigger % = 20.",
+    "criteria": {
+      "type": "personal",
+      "character": "Noctula",
+      "level": 35
+    }
+  },
+  "Barge Through": {
+    "name": "Barge Through",
+    "description": "[Cavalry] Can move through foe's space. (Cannot move through large-scale foes.)",
+    "criteria": {
+      "type": "personal",
+      "character": "Nydine",
+      "level": "innate"
+    }
+  },
+  "Bestial Impulse": {
+    "name": "Bestial Impulse",
+    "description": "After combat, grants Crit+2 until a unit makes a critical.",
+    "criteria": {
+      "type": "personal",
+      "character": "Dietrich",
+      "level": 5
+    }
+  },
+  "Blindside": {
+    "name": "Blindside",
+    "description": "If unit attacks first, cannot be countered during combat. Trigger % = 5 (Overblaze: 10).",
+    "criteria": {
+      "type": "personal",
+      "character": "Leda",
+      "level": "innate"
+    }
+  },
+  "Blink of an Eye": {
+    "name": "Blink of an Eye",
+    "description": "After using Swap, grants Def+3 until unit's next phase.",
+    "criteria": {
+      "type": "personal",
+      "character": "Jester",
+      "level": "innate"
+    }
+  },
+  "Brave Assist": {
+    "name": "Brave Assist",
+    "description": "Grants Def+3 to adjacent allies.",
+    "criteria": {
+      "type": "personal",
+      "character": "Gaitz",
+      "level": "innate"
+    }
+  },
+  "Brawn": {
+    "name": "Brawn",
+    "description": "Reduces Wt of unit's equipment to 80%. (The Wt reduction is per item, and resulting Wt of each round down)",
+    "criteria": {
+      "type": "personal",
+      "character": "Esmeralda",
+      "level": "innate"
+    }
+  },
+  "Brio": {
+    "name": "Brio",
+    "description": "Grants Mov+1 (Overblaze: Mov+2).",
+    "criteria": {
+      "type": "personal",
+      "character": "Cai",
+      "level": "innate"
+    }
+  },
+  "Cannoning Flair": {
+    "name": "Cannoning Flair",
+    "description": "When using artillery, grants Hit+30 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Talimun",
+      "level": 0
+    }
+  },
+  "Caretaker": {
+    "name": "Caretaker",
+    "description": "Adjacent allies cannot suffer a follow-up during combat. Trigger % = 5.",
+    "criteria": {
+      "type": "personal",
+      "character": "Diego",
+      "level": "innate"
+    }
+  },
+  "Celestial Flow": {
+    "name": "Celestial Flow",
+    "description": "Grants Avo+3.",
+    "criteria": {
+      "type": "personal",
+      "character": "Anatolia",
+      "level": "innate"
+    }
+  },
+  "Chariot Stagger": {
+    "name": "Chariot Stagger",
+    "description": "If unit is a charioteer, grants +1 uses to staggering blows.",
+    "criteria": {
+      "type": "personal",
+      "character": "Benditz",
+      "level": 20
+    }
+  },
+  "Chariot Stagger+": {
+    "name": "Chariot Stagger+",
+    "description": "If unit is a charioteer, grants +2 uses to staggering blows.",
+    "criteria": {
+      "type": "personal",
+      "character": "Benditz",
+      "level": 35
+    }
+  },
+  "Close Call": {
+    "name": "Close Call",
+    "description": "If unit's HP \u2265 2 and damage would reduce it to 0, leaves unit with 1 HP. Trigger % = Lck.",
+    "criteria": {
+      "type": "personal",
+      "character": "Simon",
+      "level": "innate"
+    }
+  },
+  "Competitive Zeal": {
+    "name": "Competitive Zeal",
+    "description": "When equipped with magic, grants Crit+10.",
+    "criteria": {
+      "type": "personal",
+      "character": "Olympia",
+      "level": "innate"
+    }
+  },
+  "Continuum": {
+    "name": "Continuum",
+    "description": "When unit avoids an attack, restores 5 HP to unit.",
+    "criteria": {
+      "type": "personal",
+      "character": "Anatolia",
+      "level": 0
+    }
+  },
+  "Continuum+": {
+    "name": "Continuum+",
+    "description": "When unit avoids an attack, restores 10 HP to unit.",
+    "criteria": {
+      "type": "personal",
+      "character": "Anatolia",
+      "level": 0
+    }
+  },
+  "Cooler Heads": {
+    "name": "Cooler Heads",
+    "description": "After using Draw Back, unit can use assist magic.",
+    "criteria": {
+      "type": "personal",
+      "character": "Sha Lan",
+      "level": "innate"
+    }
+  },
+  "Correct for Drift": {
+    "name": "Correct for Drift",
+    "description": "If unit's hit % \u2265 90%, grants Hit+10 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Peter",
+      "level": 20
+    }
+  },
+  "Correct for Drift+": {
+    "name": "Correct for Drift+",
+    "description": "If unit's hit % \u2265 75%, grants Hit+20 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Peter",
+      "level": 35
+    }
+  },
+  "Dark Calling": {
+    "name": "Dark Calling",
+    "description": "Inflicts Ddg-5 on adjacent foes.",
+    "criteria": {
+      "type": "personal",
+      "character": "Fabio",
+      "level": "innate"
+    }
+  },
+  "Dark Secrets": {
+    "name": "Dark Secrets",
+    "description": "Extends range of Dark Calling to 2 spaces.",
+    "criteria": {
+      "type": "personal",
+      "character": "Fabio",
+      "level": 20
+    }
+  },
+  "Dark Secrets+": {
+    "name": "Dark Secrets+",
+    "description": "Extends range of Dark Calling to 3 spaces.",
+    "criteria": {
+      "type": "personal",
+      "character": "Fabio",
+      "level": 35
+    }
+  },
+  "Devil's Luck": {
+    "name": "Devil's Luck",
+    "description": "After defeating a foe, grants Lck+1 until the end of the map. (Max +10)",
+    "criteria": {
+      "type": "personal",
+      "character": "Simon",
+      "level": 20
+    }
+  },
+  "Devil's Luck+": {
+    "name": "Devil's Luck+",
+    "description": "After defeating a foe, grants Lck+2 until the end of the map. (Max +10)",
+    "criteria": {
+      "type": "personal",
+      "character": "Simon",
+      "level": 35
+    }
+  },
+  "Direct Hit": {
+    "name": "Direct Hit",
+    "description": "Deals +10 damage when attacking with Blaze Arts. Trigger % = 30.",
+    "criteria": {
+      "type": "personal",
+      "character": "Theodora",
+      "level": 5
+    }
+  },
+  "Distant Healing": {
+    "name": "Distant Healing",
+    "description": "Grants Rng +1 to healing magic.",
+    "criteria": {
+      "type": "personal",
+      "character": "Sofia",
+      "level": 20
+    }
+  },
+  "Distant Healing+": {
+    "name": "Distant Healing+",
+    "description": "Grants Rng +2 to healing magic.",
+    "criteria": {
+      "type": "personal",
+      "character": "Sofia",
+      "level": 35
+    }
+  },
+  "Dramatic Effect": {
+    "name": "Dramatic Effect",
+    "description": "When Stage Directions triggers, grants Hit+10 to target allies.",
+    "criteria": {
+      "type": "personal",
+      "character": "Dante",
+      "level": 20
+    }
+  },
+  "Dramatic Effect+": {
+    "name": "Dramatic Effect+",
+    "description": "When Stage Directions triggers, grants Hit/Crit+10 to target allies.",
+    "criteria": {
+      "type": "personal",
+      "character": "Dante",
+      "level": 35
+    }
+  },
+  "Expert Counter": {
+    "name": "Expert Counter",
+    "description": "If foe attacks first, grants Hit+20 to unit during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Jasmine",
+      "level": "innate"
+    }
+  },
+  "Falcon": {
+    "name": "Falcon",
+    "description": "If unit attacks first, grants AS+3 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Ludia",
+      "level": "innate"
+    }
+  },
+  "Fear Nothing": {
+    "name": "Fear Nothing",
+    "description": "If unit attacks first, grants Atk+3 at cost of Avo-30 to unit during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Majide",
+      "level": 20
+    }
+  },
+  "Fear Nothing+": {
+    "name": "Fear Nothing+",
+    "description": "If unit attacks first, grants Atk+6 at cost of Avo-30 to unit during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Majide",
+      "level": 35
+    }
+  },
+  "Flamekeeper": {
+    "name": "Flamekeeper",
+    "description": "Unit and all allies are unaffected by Underworld Flames and take half damage from attacks while in Underworld Flames.",
+    "criteria": {
+      "type": "personal",
+      "character": "Cai",
+      "level": 35
+    }
+  },
+  "Flashing Fang": {
+    "name": "Flashing Fang",
+    "description": "Grants Atk+4, Hit+50 when attacking. Trigger % = 20.",
+    "criteria": {
+      "type": "personal",
+      "character": "Gaitz",
+      "level": 20
+    }
+  },
+  "Flashing Fang+": {
+    "name": "Flashing Fang+",
+    "description": "Grants Atk+7, Hit+100 when attacking. Trigger % = 20.",
+    "criteria": {
+      "type": "personal",
+      "character": "Gaitz",
+      "level": 35
+    }
+  },
+  "Flickering Edge": {
+    "name": "Flickering Edge",
+    "description": "When unit avoids an attack, grants Atk+3 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Jester",
+      "level": 20
+    }
+  },
+  "Flickering Edge+": {
+    "name": "Flickering Edge+",
+    "description": "When unit avoids an attack, grants Atk+5 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Jester",
+      "level": 35
+    }
+  },
+  "Full Strength": {
+    "name": "Full Strength",
+    "description": "Multiplies damage by 1.3 when attacking. Trigger % = Str \u00f7 2.",
+    "criteria": {
+      "type": "personal",
+      "character": "Dadao",
+      "level": 20
+    }
+  },
+  "Full Strength+": {
+    "name": "Full Strength+",
+    "description": "Multiplies damage by 1.5 when attacking. Trigger % = Str \u00f7 2.",
+    "criteria": {
+      "type": "personal",
+      "character": "Dadao",
+      "level": 35
+    }
+  },
+  "Gift of Faith": {
+    "name": "Gift of Faith",
+    "description": "When healing an ally with magic, restores +20 HP. Trigger % = Lck.",
+    "criteria": {
+      "type": "personal",
+      "character": "Fianna",
+      "level": 20
+    }
+  },
+  "Gift of Faith+": {
+    "name": "Gift of Faith+",
+    "description": "When healing an ally with magic, restores +30 HP. Trigger % = Lck.",
+    "criteria": {
+      "type": "personal",
+      "character": "Fianna",
+      "level": 35
+    }
+  },
+  "Go No Sen": {
+    "name": "Go No Sen",
+    "description": "In enemy's phase, unit attacks first during combat. Trigger % = 25.",
+    "criteria": {
+      "type": "personal",
+      "character": "Bertrand",
+      "level": 5
+    }
+  },
+  "Goddess's Favor": {
+    "name": "Goddess's Favor",
+    "description": "After combat, restores 5 HP to unit.",
+    "criteria": {
+      "type": "personal",
+      "character": "Sirocco",
+      "level": "innate"
+    }
+  },
+  "Graceful Light": {
+    "name": "Graceful Light",
+    "description": "When healing an ally with magic, reduces magic cost to 0. Trigger % = Lck.",
+    "criteria": {
+      "type": "personal",
+      "character": "Fianna",
+      "level": "innate"
+    }
+  },
+  "Guardian's Duty": {
+    "name": "Guardian's Duty",
+    "description": "Reduces damage to 90% when attacked.",
+    "criteria": {
+      "type": "personal",
+      "character": "Buccar",
+      "level": "innate"
+    }
+  },
+  "Halt Advance": {
+    "name": "Halt Advance",
+    "description": "After combat, if unit attacked first, inflicts Spd-2 on foe throughout their next combat",
+    "criteria": {
+      "type": "personal",
+      "character": "Halvin",
+      "level": 20
+    }
+  },
+  "Halt Advance+": {
+    "name": "Halt Advance+",
+    "description": "After combat, if unit attacked first, inflicts Spd-3 on foe throughout their next combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Halvin",
+      "level": 35
+    }
+  },
+  "Har Hali Wisdom": {
+    "name": "Har Hali Wisdom",
+    "description": "If unit is effective against foe, grants Atk+3 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Nuzzuo",
+      "level": "innate"
+    }
+  },
+  "Harmonic Soul": {
+    "name": "Harmonic Soul",
+    "description": "When healing an ally with magic, restores a little HP to unit.",
+    "criteria": {
+      "type": "personal",
+      "character": "Orchel",
+      "level": 0
+    }
+  },
+  "Harmonic Soul+": {
+    "name": "Harmonic Soul+",
+    "description": "When healing an ally with magic, restores some HP to unit.",
+    "criteria": {
+      "type": "personal",
+      "character": "Orchel",
+      "level": 0
+    }
+  },
+  "Hatchet Man": {
+    "name": "Hatchet Man",
+    "description": "When equipped with an axe, grants Hit+10.",
+    "criteria": {
+      "type": "personal",
+      "character": "Zarcone",
+      "level": "innate"
+    }
+  },
+  "Headlong Rush": {
+    "name": "Headlong Rush",
+    "description": "If unit attacks first, grants AS+3, Hit+10 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Nathan",
+      "level": "innate"
+    }
+  },
+  "Healing Knowledge": {
+    "name": "Healing Knowledge",
+    "description": "When healing an ally with magic, restores +10 HP.",
+    "criteria": {
+      "type": "personal",
+      "character": "Sofia",
+      "level": "innate"
+    }
+  },
+  "Heavy-Bow User": {
+    "name": "Heavy-Bow User",
+    "description": "When equipped with a bow, grants Str+3.",
+    "criteria": {
+      "type": "personal",
+      "character": "Inyoni",
+      "level": "innate"
+    }
+  },
+  "Heavyweight Class": {
+    "name": "Heavyweight Class",
+    "description": "Unit cannot change to cavalry or flying. Grants Bld+5.",
+    "criteria": {
+      "type": "personal",
+      "character": "Goliath",
+      "level": "innate"
+    }
+  },
+  "Hellbent Axe": {
+    "name": "Hellbent Axe",
+    "description": "When equipped with an axe, grants Str+3.",
+    "criteria": {
+      "type": "personal",
+      "character": "Majide",
+      "level": "innate"
+    }
+  },
+  "Hot-Headed": {
+    "name": "Hot-Headed",
+    "description": "Grants one of Hit+10, Avo+10, or Crit+10 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Guzran",
+      "level": "innate"
+    }
+  },
+  "Hunter's Snare": {
+    "name": "Hunter's Snare",
+    "description": "In enemy's phase, if foe is damaged, unit attacks first during combat. Trigger % = 30.",
+    "criteria": {
+      "type": "personal",
+      "character": "Peppe",
+      "level": "innate"
+    }
+  },
+  "Improviso": {
+    "name": "Improviso",
+    "description": "After using Blaze Arts during Overblaze, unit can attack.",
+    "criteria": {
+      "type": "personal",
+      "character": "Leda",
+      "level": 0
+    }
+  },
+  "King's Majesty": {
+    "name": "King's Majesty",
+    "description": "If foe is damaged, grants Atk+2, Crit+5 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Peppe",
+      "level": 20
+    }
+  },
+  "King's Majesty+": {
+    "name": "King's Majesty+",
+    "description": "If foe is damaged, grants Atk+4, Crit+10 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Peppe",
+      "level": 35
+    }
+  },
+  "Light of Salvation": {
+    "name": "Light of Salvation",
+    "description": "Neutralizes Underworld Boon on foes within 2 spaces (Overblaze: 3 spaces).",
+    "criteria": {
+      "type": "personal",
+      "character": "Eshmel",
+      "level": "innate"
+    }
+  },
+  "Management Skills": {
+    "name": "Management Skills",
+    "description": "Allows storage access to unit and allies within 2 spaces.",
+    "criteria": {
+      "type": "personal",
+      "character": "Ursula",
+      "level": "innate"
+    }
+  },
+  "Menace": {
+    "name": "Menace",
+    "description": "Halves foe's Ddg during combat. Trigger % = 10.",
+    "criteria": {
+      "type": "personal",
+      "character": "Kiroc",
+      "level": 20
+    }
+  },
+  "Menace+": {
+    "name": "Menace+",
+    "description": "Halves foe's Ddg during combat. Trigger % = 20.",
+    "criteria": {
+      "type": "personal",
+      "character": "Kiroc",
+      "level": 35
+    }
+  },
+  "Meridian Expansion": {
+    "name": "Meridian Expansion",
+    "description": "After defeating a foe, grants max HP+2 until the end of the map (Max +10)",
+    "criteria": {
+      "type": "personal",
+      "character": "Anatolia",
+      "level": 0
+    }
+  },
+  "Modified Weapon": {
+    "name": "Modified Weapon",
+    "description": "When equipped with Zerberus, attacks are effective vs. flying.",
+    "criteria": {
+      "type": "personal",
+      "character": "Troy",
+      "level": 50
+    }
+  },
+  "Modified Weapon+": {
+    "name": "Modified Weapon+",
+    "description": "When equipped with Zerberus, attacks are effective+ vs. flying.",
+    "criteria": {
+      "type": "personal",
+      "character": "Troy",
+      "level": 60
+    }
+  },
+  "Monkly Havoc": {
+    "name": "Monkly Havoc",
+    "description": "After defeating a foe, unit recovers HP equal to max HP. Trigger % = Lck \u00f7 2.",
+    "criteria": {
+      "type": "personal",
+      "character": "Yang Jie",
+      "level": "innate"
+    }
+  },
+  "Mounted Push": {
+    "name": "Mounted Push",
+    "description": "[Cavalry] If unit attacks first, grants Hit+10 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Io",
+      "level": 20
+    }
+  },
+  "Mounted Push+": {
+    "name": "Mounted Push+",
+    "description": "[Cavalry] If unit attacks first, grants Hit+10, Atk+3 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Io",
+      "level": 35
+    }
+  },
+  "Murderous Intent": {
+    "name": "Murderous Intent",
+    "description": "If unit attacks first, grants Crit+5 (Overblaze: Crit+10) during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Dietrich",
+      "level": "innate"
+    }
+  },
+  "Never Stop": {
+    "name": "Never Stop",
+    "description": "Grants Atk+5 when attacking after Quick Draw triggers. Trigger % = 30.",
+    "criteria": {
+      "type": "personal",
+      "character": "Nezha",
+      "level": 20
+    }
+  },
+  "Never Stop+": {
+    "name": "Never Stop+",
+    "description": "Grants Atk+5 when attacking after Quick Draw triggers. Trigger % = 50.",
+    "criteria": {
+      "type": "personal",
+      "character": "Nezha",
+      "level": 35
+    }
+  },
+  "No Mercy": {
+    "name": "No Mercy",
+    "description": "Grants Hit/Crit+5 when making a follow-up.",
+    "criteria": {
+      "type": "personal",
+      "character": "Diego",
+      "level": 20
+    }
+  },
+  "No Mercy+": {
+    "name": "No Mercy+",
+    "description": "Grants Hit/Crit+10 when making a follow-up.",
+    "criteria": {
+      "type": "personal",
+      "character": "Diego",
+      "level": 35
+    }
+  },
+  "One Chance": {
+    "name": "One Chance",
+    "description": "If unit and foe cannot make a follow-up, grants Atk+5 to unit during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Dadao",
+      "level": "innate"
+    }
+  },
+  "Pass Judgment": {
+    "name": "Pass Judgment",
+    "description": "When Diadem of Balance triggers, grants Atk+4.",
+    "criteria": {
+      "type": "personal",
+      "character": "Seteth",
+      "level": 20
+    }
+  },
+  "Pass Judgment+": {
+    "name": "Pass Judgment+",
+    "description": "When Diadem of Balance triggers, grants Atk+7.",
+    "criteria": {
+      "type": "personal",
+      "character": "Seteth",
+      "level": 35
+    }
+  },
+  "Patch Up": {
+    "name": "Patch Up",
+    "description": "After an adjacent ally's combat, restores a little HP to that ally.",
+    "criteria": {
+      "type": "personal",
+      "character": "Ultand",
+      "level": "innate"
+    }
+  },
+  "Peak Form": {
+    "name": "Peak Form",
+    "description": "If unit's HP = 100%, grants Atk+3 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Loretta",
+      "level": 20
+    }
+  },
+  "Peak Form+": {
+    "name": "Peak Form+",
+    "description": "If unit's HP = 100%, grants Atk+3, Avo+10 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Loretta",
+      "level": 35
+    }
+  },
+  "Perception": {
+    "name": "Perception",
+    "description": "If unit can make a follow-up, grants Avo+10 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Ludia",
+      "level": 20
+    }
+  },
+  "Perception+": {
+    "name": "Perception+",
+    "description": "If unit can make a follow-up, grants Avo+20 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Ludia",
+      "level": 35
+    }
+  },
+  "Pierce": {
+    "name": "Pierce",
+    "description": "Grants Atk+2, Crit+5 when attacking with a bow combat art.",
+    "criteria": {
+      "type": "personal",
+      "character": "Inyoni",
+      "level": 20
+    }
+  },
+  "Pierce+": {
+    "name": "Pierce+",
+    "description": "Grants Atk+4, Crit+10 when attacking with a bow combat art.",
+    "criteria": {
+      "type": "personal",
+      "character": "Inyoni",
+      "level": 35
+    }
+  },
+  "Pin Down": {
+    "name": "Pin Down",
+    "description": "Inflicts Mov-3 on adjacent foes.",
+    "criteria": {
+      "type": "personal",
+      "character": "Goliath",
+      "level": 20
+    }
+  },
+  "Pin Down+": {
+    "name": "Pin Down+",
+    "description": "Inflicts Mov-5 on adjacent foes.",
+    "criteria": {
+      "type": "personal",
+      "character": "Goliath",
+      "level": 35
+    }
+  },
+  "Power Arts": {
+    "name": "Power Arts",
+    "description": "Grants Atk+3 when attacking with a combat art.",
+    "criteria": {
+      "type": "personal",
+      "character": "Tobias",
+      "level": "innate"
+    }
+  },
+  "Pray for Safety": {
+    "name": "Pray for Safety",
+    "description": "Grants Ddg+10 to adjacent allies.",
+    "criteria": {
+      "type": "personal",
+      "character": "Ultand",
+      "level": 20
+    }
+  },
+  "Pray for Safety+": {
+    "name": "Pray for Safety+",
+    "description": "Grants Ddg+20 to adjacent allies.",
+    "criteria": {
+      "type": "personal",
+      "character": "Ultand",
+      "level": 35
+    }
+  },
+  "Precision Strike": {
+    "name": "Precision Strike",
+    "description": "If unit is effective against foe, grants Hit+10 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Nuzzuo",
+      "level": 20
+    }
+  },
+  "Precision Strike+": {
+    "name": "Precision Strike+",
+    "description": "If unit is effective against foe, grants Hit+20 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Nuzzuo",
+      "level": 35
+    }
+  },
+  "Predictive Sense": {
+    "name": "Predictive Sense",
+    "description": "If unit attacks first, grants Hit+20 to magic during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Orchel",
+      "level": 0
+    }
+  },
+  "Princess of Arrows": {
+    "name": "Princess of Arrows",
+    "description": "When equipped with a bow, grants Hit+20.",
+    "criteria": {
+      "type": "personal",
+      "character": "Aswan",
+      "level": "innate"
+    }
+  },
+  "Punishing Squall": {
+    "name": "Punishing Squall",
+    "description": "If AS \u2265 foe's AS+3, grants Hit+20 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Catania",
+      "level": "innate"
+    }
+  },
+  "Python Technique": {
+    "name": "Python Technique",
+    "description": "When using a gauntlet combat art, unit makes a follow-up regardless of AS during combat. Trigger % = 15.",
+    "criteria": {
+      "type": "personal",
+      "character": "Tahonia",
+      "level": "innate"
+    }
+  },
+  "Quick Draw": {
+    "name": "Quick Draw",
+    "description": "If unit attacks first, grants Atk+3 during combat. Trigger % = 50.",
+    "criteria": {
+      "type": "personal",
+      "character": "Nezha",
+      "level": "innate"
+    }
+  },
+  "Racing Attack": {
+    "name": "Racing Attack",
+    "description": "If unit attacks first, grants Avo+15 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Lysander",
+      "level": "innate"
+    }
+  },
+  "Raging Counter": {
+    "name": "Raging Counter",
+    "description": "If foe attacks first, grants Atk+3 to unit during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Jasmine",
+      "level": 20
+    }
+  },
+  "Raging Counter+": {
+    "name": "Raging Counter+",
+    "description": "If foe attacks first, grants Atk+3, Crit+10 to unit during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Jasmine",
+      "level": 35
+    }
+  },
+  "Ready for Battle": {
+    "name": "Ready for Battle",
+    "description": "For the first combat in enemy's phase, unit attacks first. Trigger % = 50.",
+    "criteria": {
+      "type": "personal",
+      "character": "Seteth",
+      "level": "innate"
+    }
+  },
+  "Redblade's Will": {
+    "name": "Redblade's Will",
+    "description": "Grants Atk+3 during combat against an adjacent foe.",
+    "criteria": {
+      "type": "personal",
+      "character": "Mikaela",
+      "level": 20
+    }
+  },
+  "Redblade's Will+": {
+    "name": "Redblade's Will+",
+    "description": "Grants Atk+3 during combat against an adjacent foe. Also grants Atk+3 when attacking an adjacent foe (trigger % = 30).",
+    "criteria": {
+      "type": "personal",
+      "character": "Mikaela",
+      "level": 35
+    }
+  },
+  "Requiem Style": {
+    "name": "Requiem Style",
+    "description": "Unit makes a follow-up regardless of AS during combat. Trigger % = 5 (Overblaze: 10).",
+    "criteria": {
+      "type": "personal",
+      "character": "Bertrand",
+      "level": "innate"
+    }
+  },
+  "Retaliatory Blow": {
+    "name": "Retaliatory Blow",
+    "description": "If foe attacks first, multiplies unit's damage by 1.3 when attacking. Trigger % = 5.",
+    "criteria": {
+      "type": "personal",
+      "character": "Buccar",
+      "level": 20
+    }
+  },
+  "Retaliatory Blow+": {
+    "name": "Retaliatory Blow+",
+    "description": "If foe attacks first, multiplies unit's damage by 1.3 when attacking. Trigger % = 10.",
+    "criteria": {
+      "type": "personal",
+      "character": "Buccar",
+      "level": 35
+    }
+  },
+  "Robust Health": {
+    "name": "Robust Health",
+    "description": "Grants Shld+3 when attacked. Trigger % = unit's remaining HP.",
+    "criteria": {
+      "type": "personal",
+      "character": "Yang Jie",
+      "level": 20
+    }
+  },
+  "Robust Health+": {
+    "name": "Robust Health+",
+    "description": "Grants Shld+5 when attacked. Trigger % = unit's remaining HP.",
+    "criteria": {
+      "type": "personal",
+      "character": "Yang Jie",
+      "level": 35
+    }
+  },
+  "Royal Resolve": {
+    "name": "Royal Resolve",
+    "description": "Unit takes half damage when attacked. Trigger % = 30 (Overblaze: 50).",
+    "criteria": {
+      "type": "personal",
+      "character": "Theodora",
+      "level": "innate"
+    }
+  },
+  "Safety First": {
+    "name": "Safety First",
+    "description": "If foe cannot counter, grants Hit+10 to unit during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Lilian",
+      "level": "innate"
+    }
+  },
+  "Sage Advice": {
+    "name": "Sage Advice",
+    "description": "Grants Dex+3 to adjacent allies.",
+    "criteria": {
+      "type": "personal",
+      "character": "Bonaventure",
+      "level": "innate"
+    }
+  },
+  "Scorching Sun": {
+    "name": "Scorching Sun",
+    "description": "Reduces damage done by undead foes to 0. Trigger % = 5.",
+    "criteria": {
+      "type": "personal",
+      "character": "Eshmel",
+      "level": 45
+    }
+  },
+  "Scorching Sun+": {
+    "name": "Scorching Sun+",
+    "description": "Reduces damage done by undead foes to 0. Trigger % = 10.",
+    "criteria": {
+      "type": "personal",
+      "character": "Eshmel",
+      "level": 60
+    }
+  },
+  "Seize the Chance": {
+    "name": "Seize the Chance",
+    "description": "Multiplies damage by 1.3 when attacking. Trigger % = Lck \u00f7 2.",
+    "criteria": {
+      "type": "personal",
+      "character": "Ursula",
+      "level": 20
+    }
+  },
+  "Seize the Chance+": {
+    "name": "Seize the Chance+",
+    "description": "Multiplies damage by 1.5 when attacking. Trigger % = Lck \u00f7 2.",
+    "criteria": {
+      "type": "personal",
+      "character": "Ursula",
+      "level": 35
+    }
+  },
+  "Self-Repair": {
+    "name": "Self-Repair",
+    "description": "At start of unit's phase during Overblaze, restores a lot of HP to unit",
+    "criteria": {
+      "type": "personal",
+      "character": "Orchel",
+      "level": 0
+    }
+  },
+  "Sen No Sen": {
+    "name": "Sen No Sen",
+    "description": "If unit attacks first, unit's follow-up occurs before foe's counter during combat. Trigger % = 25.",
+    "criteria": {
+      "type": "personal",
+      "character": "Bertrand",
+      "level": 0
+    }
+  },
+  "Signs of Growth": {
+    "name": "Signs of Growth",
+    "description": "When unit levels up, grants enhanced basic stat growth.",
+    "criteria": {
+      "type": "personal",
+      "character": "Mu",
+      "level": "innate"
+    }
+  },
+  "Silver Maiden": {
+    "name": "Silver Maiden",
+    "description": "Grants Hit/Avo+5 to unit for each adjacent ally.",
+    "criteria": {
+      "type": "personal",
+      "character": "Alexandra",
+      "level": "innate"
+    }
+  },
+  "Soar": {
+    "name": "Soar",
+    "description": "If unit is on inaccessible terrain, grants AS+3.",
+    "criteria": {
+      "type": "personal",
+      "character": "Alexandra",
+      "level": 20
+    }
+  },
+  "Soar+": {
+    "name": "Soar+",
+    "description": "If unit is on inaccessible terrain, grants AS+5.",
+    "criteria": {
+      "type": "personal",
+      "character": "Alexandra",
+      "level": 35
+    }
+  },
+  "Solid and Sturdy": {
+    "name": "Solid and Sturdy",
+    "description": "Grants Def+5 (Overblaze: Def+5, Dex+10). Unit is armored. Cannot change class to cavalry or flying.",
+    "criteria": {
+      "type": "personal",
+      "character": "Orchel",
+      "level": "innate"
+    }
+  },
+  "Spirit of Silver": {
+    "name": "Spirit of Silver",
+    "description": "After combat, grants Def+1 to unit until the end of the map. (Max +10) Trigger % = Def.",
+    "criteria": {
+      "type": "personal",
+      "character": "Klapka",
+      "level": "innate"
+    }
+  },
+  "Spirits' Guidance": {
+    "name": "Spirits' Guidance",
+    "description": "Grants Spirits' Voices to adjacent allies.",
+    "criteria": {
+      "type": "personal",
+      "character": "Ninae",
+      "level": 20
+    }
+  },
+  "Spirits' Guidance+": {
+    "name": "Spirits' Guidance+",
+    "description": "Grants Spirits' Voices to allies within 2 spaces.",
+    "criteria": {
+      "type": "personal",
+      "character": "Ninae",
+      "level": 35
+    }
+  },
+  "Spirits' Voices": {
+    "name": "Spirits' Voices",
+    "description": "If foe uses magic, grants Hit/Avo+10 to unit during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Ninae",
+      "level": "innate"
+    }
+  },
+  "Stage Directions": {
+    "name": "Stage Directions",
+    "description": "Grants Ddg+10 to allies within 2 spaces during their combats. Trigger % = ally's Cha \u00f7 2.",
+    "criteria": {
+      "type": "personal",
+      "character": "Dante",
+      "level": "innate"
+    }
+  },
+  "Steadfast": {
+    "name": "Steadfast",
+    "description": "If unit's HP \u2265 50%, grants Avo+10 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Loretta",
+      "level": "innate"
+    }
+  },
+  "Steady Aim": {
+    "name": "Steady Aim",
+    "description": "Grants Rng +1 when attacking with a bow combat art.",
+    "criteria": {
+      "type": "personal",
+      "character": "Peter",
+      "level": "innate"
+    }
+  },
+  "Steady Hands": {
+    "name": "Steady Hands",
+    "description": "If foe attacks first, grants AS+3, Avo+10 to unit during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Creek",
+      "level": "innate"
+    }
+  },
+  "Sturdy Corundum": {
+    "name": "Sturdy Corundum",
+    "description": "For the first combat in enemy's phase, unit takes half damage.",
+    "criteria": {
+      "type": "personal",
+      "character": "Centurio",
+      "level": "innate"
+    }
+  },
+  "Swashbuckler's Luck": {
+    "name": "Swashbuckler's Luck",
+    "description": "Grants Lck+3 (Overblaze: Lck+5 to unit and all allies).",
+    "criteria": {
+      "type": "personal",
+      "character": "Talimun",
+      "level": "innate"
+    }
+  },
+  "Tactician's Insight": {
+    "name": "Tactician's Insight",
+    "description": "After combat, if unit attacked first, inflicts Avo-5 on foe throughout their next combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Tialla",
+      "level": 20
+    }
+  },
+  "Tactician's Insight+": {
+    "name": "Tactician's Insight+",
+    "description": "After combat, if unit attacked first, inflicts Avo-10 on foe throughout their next combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Tialla",
+      "level": 35
+    }
+  },
+  "Tactician's Wit": {
+    "name": "Tactician's Wit",
+    "description": "Grants Rng +1 to combat arts usable on allies.",
+    "criteria": {
+      "type": "personal",
+      "character": "Tialla",
+      "level": "innate"
+    }
+  },
+  "Throwing Arm": {
+    "name": "Throwing Arm",
+    "description": "If throwing a spear, grants Hit+ 10, Atk+2 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Esmeralda",
+      "level": 20
+    }
+  },
+  "Throwing Arm+": {
+    "name": "Throwing Arm+",
+    "description": "If throwing a spear, grants Hit+20, Atk+4 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Esmeralda",
+      "level": 35
+    }
+  },
+  "Top Form": {
+    "name": "Top Form",
+    "description": "Changes the effect of Hot-Headed to grant +15.",
+    "criteria": {
+      "type": "personal",
+      "character": "Guzran",
+      "level": 20
+    }
+  },
+  "Top Form+": {
+    "name": "Top Form+",
+    "description": "Changes the effect of Hot-Headed to grant +20.",
+    "criteria": {
+      "type": "personal",
+      "character": "Guzran",
+      "level": 35
+    }
+  },
+  "Tyranny": {
+    "name": "Tyranny",
+    "description": "If foe has a status effect, grants Atk+3, Crit+10 to unit during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Kiroc",
+      "level": "innate"
+    }
+  },
+  "Unstoppable Force": {
+    "name": "Unstoppable Force",
+    "description": "Multiplies damage by 3 when attacking obstacles.",
+    "criteria": {
+      "type": "personal",
+      "character": "Theodora",
+      "level": 0
+    }
+  },
+  "Upper Hand": {
+    "name": "Upper Hand",
+    "description": "If unit's hit % = 100, grants Atk+3 when attacking.",
+    "criteria": {
+      "type": "personal",
+      "character": "Lilian",
+      "level": 20
+    }
+  },
+  "Upper Hand+": {
+    "name": "Upper Hand+",
+    "description": "If unit's hit % = 100, grants Atk+5 when attacking.",
+    "criteria": {
+      "type": "personal",
+      "character": "Lilian",
+      "level": 35
+    }
+  },
+  "Veteran's Mettle": {
+    "name": "Veteran's Mettle",
+    "description": "Grants Hit+10 during combat against an adjacent foe.",
+    "criteria": {
+      "type": "personal",
+      "character": "Mikaela",
+      "level": "innate"
+    }
+  },
+  "Vulgar Conduct": {
+    "name": "Vulgar Conduct",
+    "description": "If foe's HP \u2264 50%, grants Hit+20 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Zarcone",
+      "level": 20
+    }
+  },
+  "Vulgar Conduct+": {
+    "name": "Vulgar Conduct+",
+    "description": "If foe's HP \u2264 50%, grants Hit+20, Atk+3 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Zarcone",
+      "level": 35
+    }
+  },
+  "Warrior's Blood": {
+    "name": "Warrior's Blood",
+    "description": "Grants stat increase based on equipped weapon type.",
+    "criteria": {
+      "type": "personal",
+      "character": "Mu",
+      "level": 20
+    }
+  },
+  "Warrior's Blood+": {
+    "name": "Warrior's Blood+",
+    "description": "Grants a large stat increase based on equipped weapon type.",
+    "criteria": {
+      "type": "personal",
+      "character": "Mu",
+      "level": 35
+    }
+  },
+  "Warrior's Clarity": {
+    "name": "Warrior's Clarity",
+    "description": "After combat, grants Avo+3 until unit's next phase.",
+    "criteria": {
+      "type": "personal",
+      "character": "Noctula",
+      "level": "innate"
+    }
+  },
+  "Watchfulness": {
+    "name": "Watchfulness",
+    "description": "Grants Spd+2 to adjacent allies.",
+    "criteria": {
+      "type": "personal",
+      "character": "Sha Lan",
+      "level": 20
+    }
+  },
+  "Watchfulness+": {
+    "name": "Watchfulness+",
+    "description": "Grants Spd+4 to adjacent allies.",
+    "criteria": {
+      "type": "personal",
+      "character": "Sha Lan",
+      "level": 35
+    }
+  },
+  "Wheeled Warrior": {
+    "name": "Wheeled Warrior",
+    "description": "[Cavalry] If unit is a charioteer, grants Hit+20.",
+    "criteria": {
+      "type": "personal",
+      "character": "Benditz",
+      "level": "innate"
+    }
+  },
+  "Wind My Friend": {
+    "name": "Wind My Friend",
+    "description": "If AS \u2265 foe's AS+5, grants Atk+3 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Catania",
+      "level": 20
+    }
+  },
+  "Wind My Friend+": {
+    "name": "Wind My Friend+",
+    "description": "If AS \u2265 foe's AS+5, grants Atk+3, and if AS \u2265 foe's AS+8, grants Avo+20 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Catania",
+      "level": 35
+    }
+  },
+  "Wind's Caprice": {
+    "name": "Wind's Caprice",
+    "description": "Grants one of Avo+1, Avo+5 or Avo+20 during combat",
+    "criteria": {
+      "type": "personal",
+      "character": "Sirocco",
+      "level": 20
+    }
+  },
+  "Wind's Caprice+": {
+    "name": "Wind's Caprice+",
+    "description": "Grants one of Avo+1, Avo+5, Avo+20, or Avo+30 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Sirocco",
+      "level": 35
+    }
+  },
+  "Winds of Victory": {
+    "name": "Winds of Victory",
+    "description": "Grants Hit+15 when attacking. Grants Avo+15 when attacked. Trigger % = Lck.",
+    "criteria": {
+      "type": "personal",
+      "character": "Talimun",
+      "level": 0
+    }
+  },
+  "With My Steed": {
+    "name": "With My Steed",
+    "description": "[Cavalry] If unit attacks first, grants Shld+3, Ddg+30 during combat.",
+    "criteria": {
+      "type": "personal",
+      "character": "Io",
+      "level": "innate"
+    }
+  },
+  "Yun Shou": {
+    "name": "Yun Shou",
+    "description": "When equipped with gauntlets, grants Hit+10.",
+    "criteria": {
+      "type": "personal",
+      "character": "Troy",
+      "level": "innate"
+    }
+  },
+  "Zhu Ming": {
+    "name": "Zhu Ming",
+    "description": "When equipped with magic, grants Hit+10.",
+    "criteria": {
+      "type": "personal",
+      "character": "Hong Hua",
+      "level": "innate"
+    }
+  }
+}

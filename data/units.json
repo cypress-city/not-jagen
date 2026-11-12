@@ -26,6 +26,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Light of Salvation",
+      "equippable": {
+        "Scorching Sun": 45,
+        "Scorching Sun+": 60
+      }
     }
   },
   "Cai": {
@@ -55,6 +62,12 @@
       "Riding": "Boon",
       "Armor": "Neutral",
       "Flying": "Bane"
+    },
+    "abilities": {
+      "innate": "Brio",
+      "equippable": {
+        "Flamekeeper": 35
+      }
     }
   },
   "Tialla": {
@@ -84,6 +97,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Tactician's Wit",
+      "equippable": {
+        "Tactician's Insight": 20,
+        "Tactician's Insight+": 35
+      }
     }
   },
   "Peter": {
@@ -113,6 +133,13 @@
       "Riding": "Neutral",
       "Armor": "Bane",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Steady Aim",
+      "equippable": {
+        "Correct for Drift": 20,
+        "Correct for Drift+": 35
+      }
     }
   },
   "Ultand": {
@@ -142,6 +169,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Boon"
+    },
+    "abilities": {
+      "innate": "Patch Up",
+      "equippable": {
+        "Pray for Safety": 20,
+        "Pray for Safety+": 35
+      }
     }
   },
   "Bertrand": {
@@ -171,6 +205,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Requiem Style",
+      "equippable": {
+        "Sen No Sen": 0,
+        "Go No Sen": 5
+      }
     }
   },
   "Gaitz": {
@@ -200,6 +241,13 @@
       "Riding": "Boon",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Brave Assist",
+      "equippable": {
+        "Flashing Fang": 20,
+        "Flashing Fang+": 35
+      }
     }
   },
   "Jester": {
@@ -229,6 +277,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Blink of an Eye",
+      "equippable": {
+        "Flickering Edge": 20,
+        "Flickering Edge+": 35
+      }
     }
   },
   "Goliath": {
@@ -258,6 +313,13 @@
       "Riding": "Neutral",
       "Armor": "Boon",
       "Flying": "Bane"
+    },
+    "abilities": {
+      "innate": "Heavyweight Class",
+      "equippable": {
+        "Pin Down": 20,
+        "Pin Down+": 35
+      }
     }
   },
   "Dante": {
@@ -287,6 +349,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Stage Directions",
+      "equippable": {
+        "Dramatic Effect": 20,
+        "Dramatic Effect+": 35
+      }
     }
   },
   "Dietrich": {
@@ -316,6 +385,12 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Murderous Intent",
+      "equippable": {
+        "Bestial Impulse": 5
+      }
     }
   },
   "Fabio": {
@@ -345,6 +420,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Dark Calling",
+      "equippable": {
+        "Dark Secrets": 20,
+        "Dark Secrets+": 35
+      }
     }
   },
   "Esmeralda": {
@@ -374,6 +456,13 @@
       "Riding": "Neutral",
       "Armor": "Boon",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Brawn",
+      "equippable": {
+        "Throwing Arm": 20,
+        "Throwing Arm+": 35
+      }
     }
   },
   "Mikaela": {
@@ -403,6 +492,13 @@
       "Riding": "Bane",
       "Armor": "Neutral",
       "Flying": "Bane"
+    },
+    "abilities": {
+      "innate": "Veteran's Mettle",
+      "equippable": {
+        "Redblade's Will": 20,
+        "Redblade's Will+": 35
+      }
     }
   },
   "Orchel": {
@@ -432,6 +528,15 @@
       "Riding": "Bane",
       "Armor": "Neutral",
       "Flying": "Bane"
+    },
+    "abilities": {
+      "innate": "Solid and Sturdy",
+      "equippable": {
+        "Harmonic Soul": 0,
+        "Harmonic Soul+": 0,
+        "Predictive Sense": 0,
+        "Self-Repair": 0
+      }
     }
   },
   "Diego": {
@@ -461,6 +566,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Caretaker",
+      "equippable": {
+        "No Mercy": 20,
+        "No Mercy+": 35
+      }
     }
   },
   "Loretta": {
@@ -490,6 +602,13 @@
       "Riding": "Neutral",
       "Armor": "Bane",
       "Flying": "Boon"
+    },
+    "abilities": {
+      "innate": "Steadfast",
+      "equippable": {
+        "Peak Form": 20,
+        "Peak Form+": 35
+      }
     }
   },
   "Seteth": {
@@ -519,6 +638,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Boon"
+    },
+    "abilities": {
+      "innate": "Ready for Battle",
+      "equippable": {
+        "Pass Judgment": 20,
+        "Pass Judgment+": 35
+      }
     }
   },
   "Ninae": {
@@ -548,6 +674,13 @@
       "Riding": "Boon",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Spirits' Voices",
+      "equippable": {
+        "Spirits' Guidance": 20,
+        "Spirits' Guidance+": 35
+      }
     }
   },
   "Theodora": {
@@ -577,6 +710,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Royal Resolve",
+      "equippable": {
+        "Unstoppable Force": 0,
+        "Direct Hit": 5
+      }
     }
   },
   "Bonaventure": {
@@ -606,6 +746,13 @@
       "Riding": "Boon",
       "Armor": "Bane",
       "Flying": "Bane"
+    },
+    "abilities": {
+      "innate": "Sage Advice",
+      "equippable": {
+        "Additional Intel": 20,
+        "Additional Intel+": 35
+      }
     }
   },
   "Tobias": {
@@ -635,6 +782,13 @@
       "Riding": "Boon",
       "Armor": "Boon",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Power Arts",
+      "equippable": {
+        "All-Out Attack": 20,
+        "All-Out Attack+": 35
+      }
     }
   },
   "Lilian": {
@@ -664,6 +818,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Safety First",
+      "equippable": {
+        "Upper Hand": 20,
+        "Upper Hand+": 35
+      }
     }
   },
   "Lysander": {
@@ -693,6 +854,13 @@
       "Riding": "Boon",
       "Armor": "Bane",
       "Flying": "Boon"
+    },
+    "abilities": {
+      "innate": "Racing Attack",
+      "equippable": {
+        "Accelerate": 20,
+        "Accelerate+": 35
+      }
     }
   },
   "Talimun": {
@@ -722,6 +890,13 @@
       "Riding": "Neutral",
       "Armor": "Bane",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Swashbuckler's Luck",
+      "equippable": {
+        "Cannoning Flair": 0,
+        "Winds of Victory": 0
+      }
     }
   },
   "Ursula": {
@@ -751,6 +926,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Management Skills",
+      "equippable": {
+        "Seize the Chance": 20,
+        "Seize the Chance+": 35
+      }
     }
   },
   "Ludia": {
@@ -780,6 +962,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Falcon",
+      "equippable": {
+        "Perception": 20,
+        "Perception+": 35
+      }
     }
   },
   "Simon": {
@@ -809,6 +998,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Close Call",
+      "equippable": {
+        "Devil's Luck": 20,
+        "Devil's Luck+": 35
+      }
     }
   },
   "Fianna": {
@@ -838,6 +1034,13 @@
       "Riding": "Boon",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Graceful Light",
+      "equippable": {
+        "Gift of Faith": 20,
+        "Gift of Faith+": 35
+      }
     }
   },
   "Leda": {
@@ -867,6 +1070,12 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Blindside",
+      "equippable": {
+        "Improviso": 0
+      }
     }
   },
   "Buccar": {
@@ -896,6 +1105,13 @@
       "Riding": "Boon",
       "Armor": "Boon",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Guardian's Duty",
+      "equippable": {
+        "Retaliatory Blow": 20,
+        "Retaliatory Blow+": 35
+      }
     }
   },
   "Sirocco": {
@@ -925,6 +1141,13 @@
       "Riding": "Neutral",
       "Armor": "Bane",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Goddess's Favor",
+      "equippable": {
+        "Wind's Caprice": 20,
+        "Wind's Caprice+": 35
+      }
     }
   },
   "Olympia": {
@@ -954,6 +1177,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Competitive Zeal",
+      "equippable": {
+        "Ardent Nosferatu": 20,
+        "Ardent Nosferatu+": 35
+      }
     }
   },
   "Mu": {
@@ -983,6 +1213,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Signs of Growth",
+      "equippable": {
+        "Warrior's Blood": 20,
+        "Warrior's Blood+": 35
+      }
     }
   },
   "Anatolia": {
@@ -1012,6 +1249,14 @@
       "Riding": "Neutral",
       "Armor": "Bane",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Celestial Flow",
+      "equippable": {
+        "Continuum": 0,
+        "Continuum+": 0,
+        "Meridian Expansion": 0
+      }
     }
   },
   "Sha Lan": {
@@ -1041,6 +1286,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Cooler Heads",
+      "equippable": {
+        "Watchfulness": 20,
+        "Watchfulness+": 35
+      }
     }
   },
   "Nezha": {
@@ -1070,6 +1322,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Quick Draw",
+      "equippable": {
+        "Never Stop": 20,
+        "Never Stop+": 35
+      }
     }
   },
   "Dadao": {
@@ -1099,6 +1358,13 @@
       "Riding": "Neutral",
       "Armor": "Boon",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "One Chance",
+      "equippable": {
+        "Full Strength": 20,
+        "Full Strength+": 35
+      }
     }
   },
   "Halvin": {
@@ -1128,6 +1394,13 @@
       "Riding": "Boon",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Adaptability",
+      "equippable": {
+        "Halt Advance": 20,
+        "Halt Advance+": 35
+      }
     }
   },
   "Hong Hua": {
@@ -1157,6 +1430,13 @@
       "Riding": "Neutral",
       "Armor": "Bane",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Zhu Ming",
+      "equippable": {
+        "Amplify Magic": 50,
+        "Amplify Magic+": 60
+      }
     }
   },
   "Troy": {
@@ -1186,6 +1466,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Yun Shou",
+      "equippable": {
+        "Modified Weapon": 50,
+        "Modified Weapon+": 60
+      }
     }
   },
   "Guzran": {
@@ -1215,6 +1502,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Hot-Headed",
+      "equippable": {
+        "Top Form": 20,
+        "Top Form+": 35
+      }
     }
   },
   "Yang Jie": {
@@ -1244,6 +1538,13 @@
       "Riding": "Bane",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Monkly Havoc",
+      "equippable": {
+        "Robust Health": 20,
+        "Robust Health+": 35
+      }
     }
   },
   "Io": {
@@ -1273,6 +1574,13 @@
       "Riding": "Boon",
       "Armor": "Neutral",
       "Flying": "Bane"
+    },
+    "abilities": {
+      "innate": "With My Steed",
+      "equippable": {
+        "Mounted Push": 20,
+        "Mounted Push+": 35
+      }
     }
   },
   "Peppe": {
@@ -1302,6 +1610,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Hunter's Snare",
+      "equippable": {
+        "King's Majesty": 20,
+        "King's Majesty+": 35
+      }
     }
   },
   "Noctula": {
@@ -1331,6 +1646,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Warrior's Clarity",
+      "equippable": {
+        "Attuned": 20,
+        "Attuned+": 35
+      }
     }
   },
   "Sofia": {
@@ -1360,6 +1682,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Healing Knowledge",
+      "equippable": {
+        "Distant Healing": 20,
+        "Distant Healing+": 35
+      }
     }
   },
   "Catania": {
@@ -1389,6 +1718,13 @@
       "Riding": "Neutral",
       "Armor": "Bane",
       "Flying": "Boon"
+    },
+    "abilities": {
+      "innate": "Punishing Squall",
+      "equippable": {
+        "Wind My Friend": 20,
+        "Wind My Friend+": 35
+      }
     }
   },
   "Nydine": {
@@ -1418,6 +1754,13 @@
       "Riding": "Boon",
       "Armor": "Bane",
       "Flying": "Boon"
+    },
+    "abilities": {
+      "innate": "Barge Through",
+      "equippable": {
+        "At a Gallop": 20,
+        "At a Gallop+": 35
+      }
     }
   },
   "Zarcone": {
@@ -1447,6 +1790,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Hatchet Man",
+      "equippable": {
+        "Vulgar Conduct": 20,
+        "Vulgar Conduct+": 35
+      }
     }
   },
   "Majide": {
@@ -1476,6 +1826,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Bane"
+    },
+    "abilities": {
+      "innate": "Hellbent Axe",
+      "equippable": {
+        "Fear Nothing": 20,
+        "Fear Nothing+": 35
+      }
     }
   },
   "Benditz": {
@@ -1505,6 +1862,13 @@
       "Riding": "Boon",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Wheeled Warrior",
+      "equippable": {
+        "Chariot Stagger": 20,
+        "Chariot Stagger+": 35
+      }
     }
   },
   "Inyoni": {
@@ -1534,6 +1898,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Heavy-Bow User",
+      "equippable": {
+        "Pierce": 20,
+        "Pierce+": 35
+      }
     }
   },
   "Jasmine": {
@@ -1563,6 +1934,13 @@
       "Riding": "Neutral",
       "Armor": "Boon",
       "Flying": "Bane"
+    },
+    "abilities": {
+      "innate": "Expert Counter",
+      "equippable": {
+        "Raging Counter": 20,
+        "Raging Counter+": 35
+      }
     }
   },
   "Alexandra": {
@@ -1592,6 +1970,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Boon"
+    },
+    "abilities": {
+      "innate": "Silver Maiden",
+      "equippable": {
+        "Soar": 20,
+        "Soar+": 35
+      }
     }
   },
   "Nuzzuo": {
@@ -1621,6 +2006,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Har Hali Wisdom",
+      "equippable": {
+        "Precision Strike": 20,
+        "Precision Strike+": 35
+      }
     }
   },
   "Centurio": {
@@ -1650,6 +2042,9 @@
       "Riding": "Neutral",
       "Armor": "Boon",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Sturdy Corundum"
     }
   },
   "Aswan": {
@@ -1679,6 +2074,9 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Princess of Arrows"
     }
   },
   "Nathan": {
@@ -1708,6 +2106,9 @@
       "Riding": "Boon",
       "Armor": "Boon",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Headlong Rush"
     }
   },
   "Creek": {
@@ -1737,6 +2138,9 @@
       "Riding": "Boon",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Steady Hands"
     }
   },
   "Kiroc": {
@@ -1766,6 +2170,13 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Tyranny",
+      "equippable": {
+        "Menace": 20,
+        "Menace+": 35
+      }
     }
   },
   "Klapka": {
@@ -1795,6 +2206,9 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Spirit of Silver"
     }
   },
   "Tahonia": {
@@ -1824,6 +2238,9 @@
       "Riding": "Neutral",
       "Armor": "Neutral",
       "Flying": "Neutral"
+    },
+    "abilities": {
+      "innate": "Python Technique"
     }
   }
 }

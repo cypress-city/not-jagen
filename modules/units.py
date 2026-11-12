@@ -89,13 +89,32 @@ with open("data/classes.json", "r") as f:
     CLASSES = {k: Class.from_json(v) for k, v in json.load(f).items()}
 
 
+class Ability:
+    def __init__(self, name: str, description: str, criteria: dict):
+        self.name = name
+        self.description = description
+        self.criteria = criteria
+
+    def display(self):
+        if self.criteria["type"] == "personal":
+            level = "" if self.criteria["level"] in (0, "innate") else f" (Lv. {self.criteria['level']})"
+        else:
+            level = ""
+        return f"**{self.name}**{level}\n{self.description}"
+
+
+with open("data/abilities.json", "r") as f:
+    ABILITIES: dict[str, Ability] = {v["name"]: Ability(**v) for v in json.load(f).values()}
+
+
 class Unit:
-    def __init__(self, name: str, starting_class: Class, growths: Stats, skills: dict[str, str],
+    def __init__(self, name: str, starting_class: Class, growths: Stats, skills: dict[str, str], abilities: dict,
                  equipped_class: Class = None):
         self.name = name
         self.starting_class = starting_class
         self.base_growths = growths
         self.skills = skills
+        self.abilities = abilities
         self.class_override = equipped_class
 
     @staticmethod
@@ -104,11 +123,12 @@ class Unit:
             name=js["name"],
             starting_class=CLASSES[js["starting_class"]],
             growths=Stats(js["growths"]),
-            skills=js["skills"]
+            skills=js["skills"],
+            abilities=js["abilities"]
         )
 
     def copy(self):
-        return Unit(self.name, self.starting_class, self.base_growths, self.skills, self.class_override)
+        return Unit(self.name, self.starting_class, self.base_growths, self.skills, self.abilities, self.class_override)
 
     @property
     def equipped_class(self):
@@ -121,14 +141,26 @@ class Unit:
     def growths(self):
         return self.base_growths + self.equipped_class.growths
 
+    @property
+    def personal_ability(self):
+        return ABILITIES[self.abilities["innate"]]
+
+    @property
+    def equippable_abilities(self):
+        return [ABILITIES[g] for g in self.abilities.get("equippable", [])]
+
     def embed(self, bot: Bot):
+        fs = {
+            "Growths": self.growths.display(include_percent=True, include_avg=True),
+            "Skills": " ".join(str(bot.app_emojis[f"{g.lower()}_{j.lower()}"]) for g, j in self.skills.items()),
+            "Personal Ability": self.personal_ability.display()
+        }
+        if self.equippable_abilities:
+            fs["Learned Abilities"] = "\n".join(g.display() for g in self.equippable_abilities)
         return red_embed(
             title=f"{self.name}",
             desc=f"Class: {self.equipped_class.name}",
-            fields={
-                "Growths": self.growths.display(include_percent=True, include_avg=True),
-                "Skills": " ".join(str(bot.app_emojis[f"{g.lower()}_{j.lower()}"]) for g, j in self.skills.items())
-            },
+            fields=fs,
             same_line=False
         )
 
